@@ -1,3 +1,15 @@
+/* font  */
+
+  /* @font-face {
+    font-family: myFont; 
+    src:url(/fonts/tournedos/Tournedos\ DEMO.otf)
+    }
+
+  @font-face {
+    font-family: myFontLite; 
+    src:url(/fonts/tournedos/Tournedos\ Lite\ DEMO.otf) 
+  } */
+
 :root {
   --almond: #EBD7C1;
   --laurel-green: #A3B18A;
