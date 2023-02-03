@@ -2,9 +2,9 @@
 
 ## App Developers
 
--Lauryn Kung
--Thamasha Amarasekara
--Navid Memari
+- Lauryn Kung
+- Thamasha Amarasekara
+- Navid Memari
 
 ## Main App Premise
 
