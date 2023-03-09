@@ -1,4 +1,4 @@
-# Vegan / Vegetarian Recipe App (Scrappy Food)
+# Vegan / Vegetarian Recipe App (Plantifull Recipes)
 
 ## App Developers
 
