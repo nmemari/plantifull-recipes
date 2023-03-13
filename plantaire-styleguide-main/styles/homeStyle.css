@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+font-family: 'Anybody', cursive;
+font-family: 'Grandstander', cursive;
+*/
+
+:root {
+    --almond: #EBD7C1;
+    --laurel-green: #A3B18A;
+    --fern-green: #588157;
+    --hunter-green: #3A5A40;
+    --earth-yellow: #DDA15E;
+    --earth-brown: #664A2B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: var(--laurel-green);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Bar */
+.navBar {
+    background-color: var(--hunter-green);
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.logoSection a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+.companyName {
+    color: var(--laurel-green);
+    font-family: 'Grandstander', cursive;
+}
+
+.navLinkSection {
+    display: flex;
+    list-style: none;
+}
+
+.navLink {
+    margin: 20px;
+}
+
+.navLink a {
+    text-decoration: none;
+    color: var(--laurel-green);
+    font-family: 'Grandstander', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 200ms;
+}
+
+#active {
+    color: var(--almond);
+}
+
+.navLink a:hover {
+    color: var(--almond);
+}
+
+/* Introduction Section */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.welcome {
+    color: var(--earth-brown);
+    font-family: 'Grandstander';
+    font-size: 50px;
+}
+
+.mainLogo {
+    height: 300px;
+    width: auto;
+    animation: floating 2s infinite linear; 
+}
+
+@keyframes floating {
+    30% {
+        transform: translateY(2%);
+    }
+}
+
+.scroll {
+    margin-top: 50px;
+}
+
+.downArrow {
+    height: 30px;
+    width: auto;
+}
+
+
+/* Link Container Section */
+.links {
+    background-color: var(--fern-green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.explore {
+    color: var(--earth-brown);
+    font-family: 'Grandstander';
+    font-size: 40px;
+    background-color: var(--laurel-green);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.linkContainer {
+    background-color: var(--hunter-green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.link {
+    color: var(--almond);
+    text-decoration: none;
+    font-family: 'Anybody', cursive;
+    padding: 25px;
+    margin: 10px;
+    text-align: left;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.link:hover {
+    cursor: pointer;
+    background-color: var(--fern-green);
+}   
+
+footer {
+    background-color: var(--hunter-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.scrollTop {
+    text-decoration: none;
+    font-family: 'Grandstander', cursive;
+    color: var(--laurel-green);
+    font-weight: 700;
+    font-size: 25px;
+    transition: 300ms;
+}
+
+.scrollTop:hover {
+    color: var(--fern-green);
+}
+
+.copyright {
+    color: var(--fern-green);
+    font-family: 'Anybody', cursive;
+    font-size: 16px; 
+    margin-top: 30px;
+}
