@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 122.24 122.24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #664a2b;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 2.18px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+        stroke: #b2b2b2;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-width: 3.26px;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-2);
+        stroke: #dda15e;
+      }
+
+      .cls-5 {
+        fill: #588157;
+      }
+
+      .cls-5, .cls-2 {
+        stroke: #3a5a40;
+      }
+
+      .cls-7 {
+        fill: #664a2b;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="61.12" cy="61.12" fx="61.12" fy="61.12" r="91.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a3b18a"/>
+      <stop offset=".21" stop-color="#9aab83"/>
+      <stop offset=".55" stop-color="#819b73"/>
+      <stop offset=".98" stop-color="#5a8258"/>
+      <stop offset="1" stop-color="#588157"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="60.77" cy="72.21" fx="60.77" fy="72.21" r="47.87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebd7c1"/>
+      <stop offset=".17" stop-color="#e9d2b8"/>
+      <stop offset=".45" stop-color="#e6c49f"/>
+      <stop offset=".8" stop-color="#e0af78"/>
+      <stop offset="1" stop-color="#dda15e"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="8.07" y1="99.93" x2="94.7" y2="99.93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b2b2b2"/>
+      <stop offset=".28" stop-color="#bababa"/>
+      <stop offset=".73" stop-color="#d3d3d3"/>
+      <stop offset="1" stop-color="#e5e5e5"/>
+    </linearGradient>
+  </defs>
+  <g id="Logos">
+    <g id="Logo_Gradient">
+      <rect class="cls-6" width="122.24" height="122.24" rx="12" ry="12"/>
+      <path class="cls-5" d="m62.52,31.29c1.57-11.85,8.96-19.86,26.51-21.18,2.22,12.64-2.61,22.5-12.34,25.28l-14.16-4.11Z"/>
+      <path class="cls-4" d="m33.23,92.77s-8.98-6.09-8.87-21.39,8.58-40.34,34.6-40.86c26.02-.52,36.57,20.57,36.69,37.9s-7.53,26.95-18.6,27.12-30.08.08-30.08.08c0,0-10.2.03-13.74-2.86Z"/>
+      <circle class="cls-7" cx="73.33" cy="50.52" r="4.52"/>
+      <circle class="cls-7" cx="46.96" cy="50.52" r="4.52"/>
+      <path class="cls-1" d="m56.81,55.04s3.42,4.98,6.43,0"/>
+      <path class="cls-2" d="m71.64,28.41s2.94-10.97,12.47-13.17"/>
+      <path class="cls-3" d="m25.58,95.12c4.31,9.93,19.37,14.89,34.43,14.89,15.06,0,30.11-4.97,34.42-14.9,1.11-2.55-.57-5.61-2.82-5.22-10.52,1.84-21.05,2.75-31.58,2.76-10.54,0-21.08-.92-31.63-2.76-2.26-.39-3.94,2.67-2.82,5.23Z"/>
+    </g>
+  </g>
+</svg>

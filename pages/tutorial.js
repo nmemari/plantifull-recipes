@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/Info.module.css'
+import styles from '@/styles/Tutorial.module.css'
 
-export default function Info() {
+export default function Tutorial() {
   return (
     <>
       <Head>
