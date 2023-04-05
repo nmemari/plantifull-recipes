@@ -6,9 +6,9 @@ export default function WelcomeBox() {
         <div className={styles.container}>
             <div className={styles.msgBox}>
                 <h1>Welcome to Plantifull Recipes</h1>
-                <h3>Let's Get Started</h3>
+                <h3>A recipe app to suit all your vegetarian needs</h3>
             </div>
-            <Link href='story'>Let's Get Started</Link>
+            <Link className={styles.btn} href='story'>Let's Get Started</Link> 
         </div>
     )
 }

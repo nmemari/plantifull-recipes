@@ -8,9 +8,14 @@ font-family: 'Grandstander', cursive;
 
 :root {
   --almond: #EBD7C1;
+  --light-green: #BFD29B;
   --laurel-green: #A3B18A;
-  --fern-green: #588157;
+  --fern-green: #588157; 
   --hunter-green: #3A5A40;
   --earth-yellow: #DDA15E;
   --kobicha: #664A2B;
+}
+
+body {
+  margin: 0;
 }

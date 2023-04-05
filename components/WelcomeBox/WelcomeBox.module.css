@@ -1,0 +1,49 @@
+.container {
+    background-color: var(--light-green);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+.msgBox {
+    background-color: var(--fern-green);
+    border-radius: 10px;
+    padding: 15px
+}
+
+.msgBox h1 {
+    color: white;
+    font-family: 'Grandstander', cursive;
+    font-size: 32px;
+    text-align: center;
+}
+
+.msgBox h3 {
+    color: var(--light-green);
+    font-family: 'Anybody', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--kobicha);
+    padding: 20px;
+    font-family: 'Grandstander', cursive;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    transition: 200ms;
+}
+
+.btn:hover {
+    background-color: var(--earth-yellow);
+    cursor: pointer;
+}
+
