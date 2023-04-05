@@ -1,12 +1,971 @@
 export const recipe = {
     recipes: [
         {
-            type: "",
-            cuisine: "",
-            mealType: "",
-            name: "",
-            ingredients: [],
-            instructions: ""
+            type: "Vegan",
+            cuisine: "Western",
+            mealType: "Breakfast",
+            name: "Vegan Banna Bread Pancakes with Chocolate Chunks",
+            ingredients: [
+                "1 very ripe banana and a few slices for garnish",
+                "3/4 cup unsweetened plant-based milk e.g. rice milk",
+                "1 teaspoon maple syrup and more for drizzling on top",
+                "1 cup all-purpose flour",
+                "1 1/2 teaspoons baking powder",
+                "1 tablespoon hazelnut meal and more for garnish",
+                "1/4 cup chocolate chunks or chocolate chips"
+            ],
+            instructions: [
+                "Mash a ripe banana.",
+                "Add plant-based milk, maple syrup, and coconut oil. Whisk.",
+                "Add flour, baking powder, and hazelnut meal. Whisk.",
+                "Add chocolate chunks. Fold in.",
+                "Brush/spray a pan with coconut oil. Use an ice cream scoop to add the pancake batter to the pan (over low to medium heat).",
+                " Do you see the bubbles in the middle and the corners that have set? It's time to Flip! Let the pancake cook on the other side until golden. Repeat until you’ve used up the pancake batter.",
+                "Stack the pancakes. Top with banana slices and hazelnut meal and drizzle with maple syrup."
+            ],
         },
+        {
+            type: "Vegan",
+            cuisine: "Western",
+            mealType: "Dinner/Lunch",
+            name: "Vegan Chili",
+            ingredients: [
+                "1 tablespoon olive oil",
+                "1 large onion and 2 bell peppers, diced",
+                "3 cloves garlic, minced",
+                "2 tablespoons chili powder",
+                "1 tablespoon ground cumin",
+                "1 teaspoon smoked paprika",
+                "1/2 teaspoon dried oregano",
+                "1/2 teaspoon salt",
+                "1/4 teaspoon black pepper",
+                "1 can diced tomatoes (14.5 ounces)",
+                "1 can kidney beans (15 ounces), drained and rinsed",
+                "1 can black beans (15 ounces), drained and rinsed",
+                "1 cup vegetable broth",
+                "Optional toppings: diced avocado, chopped cilantro, vegan sour cream, vegan cheese, sliced jalapenos"
+            ],
+            instructions: [
+                "In a large pot, heat the olive oil over medium-high heat.",
+                "Add the onion, bell peppers, and garlic and cook until softened, about 5 minutes.",
+                "Add the chili powder, cumin, smoked paprika, oregano, salt, and black pepper to the pot and stir to combine.",
+                "Add the diced tomatoes, kidney beans, black beans, corn, and vegetable broth to the pot and stir to combine.",
+                "Bring the chili to a boil, then reduce the heat and simmer for 30-45 minutes, stirring occasionally.",
+                "Serve hot with your favorite toppings.",
+                "You can adjust the spiciness of the chili by adding more or less chili powder and/or diced jalapenos to your liking."
+            ]
+        },
+        {
+            type: "Pescatarian",
+            cuisine: "Western",
+            mealType: "Breakfast",
+            name: "Smoked Salmon Scrambled Eggs",
+            ingredients: [
+                "2 large eggs",
+                "2 oz smoked salmon, chopped",
+                "1 tbsp butter",
+                "Salt and pepper to taste",
+                "Fresh chives, chopped (optional)"
+            ],
+            instructions: [
+                "Crack the eggs into a bowl and whisk until the yolks and whites are fully combined.",
+                "Heat a non-stick skillet over medium heat and add the butter, allowing it to melt and coat the bottom of the pan.",
+                "Pour the eggs into the skillet and let cook for about 30 seconds.",
+                "Add the chopped smoked salmon to the skillet and use a spatula to fold the eggs and salmon together.",
+                "Continue to cook and fold the eggs until they are fully set, but still moist and creamy.",
+                "Season with salt and pepper to taste.",
+                "Serve the smoked salmon scrambled eggs hot, topped with chopped chives if desired."
+            ]
+        },
+        {
+            type: "Pescatarian",
+            cuisine: "Western",
+            mealType: "Dinner/Lunch",
+            name: "Shrimp Tacos",
+            ingredients: [
+                "1 pound shrimp, peeled and deveined",
+                "2 tablespoons olive oil",
+                "1 teaspoon chili powder",
+                "1/2 teaspoon ground cumin",
+                "1/2 teaspoon smoked paprika",
+                "1/4 teaspoon salt",
+                "1/4 teaspoon black pepper",
+                "8 corn tortillas",
+                "2 cups shredded cabbage",
+                "1/4 cup chopped cilantro",
+                "1 lime, cut into wedges"
+            ],
+            instructions: [
+                "In a mixing bowl, toss the shrimp with the olive oil, chili powder, cumin, smoked paprika, salt, and black pepper until evenly coated.",
+                "Heat a skillet over medium-high heat.",
+                "Add the shrimp to the skillet and cook until pink and slightly browned, about 2-3 minutes per side.",
+                "Warm the corn tortillas in a separate skillet or on a griddle.",
+                "To assemble the tacos, layer the shredded cabbage, cooked shrimp, and chopped cilantro on top of each tortilla.",
+                "Squeeze a lime wedge over each taco and add your desired toppings.",
+                "Serve hot."
+            ]
+        },
+        {
+            type: "Ovo Vegetarian",
+            cuisine: "Western",
+            mealType: "Breakfast",
+            name: "Vegetable Frittata",
+            ingredients: [
+                "8 eggs",
+                "1/4 cup milk or non-dairy milk",
+                "1/2 teaspoon salt",
+                "1/4 teaspoon black pepper",
+                "2 tablespoons olive oil",
+                "1 small onion, chopped",
+                "2 cloves garlic, minced",
+                "1 bell pepper, chopped",
+                "1 zucchini, chopped",
+                "1 cup cherry tomatoes, halved",
+                "1/4 cup chopped fresh herbs (such as parsley, basil, or thyme)"
+            ],
+            instructions: [
+                "Preheat the oven to 350°F (180°C).",
+                "In a mixing bowl, whisk together the eggs, milk, salt, and black pepper until well combined.",
+                "Heat an oven-safe skillet over medium-high heat and add the olive oil.",
+                "Add the onion and garlic to the skillet and cook until softened, about 3-4 minutes.",
+                "Add the bell pepper and zucchini to the skillet and cook for another 3-4 minutes, until slightly softened.",
+                "Pour the egg mixture into the skillet and stir to combine with the vegetables.",
+                "Add the cherry tomatoes to the skillet and sprinkle the chopped herbs over the top.",
+                "Transfer the skillet to the oven and bake for 15-20 minutes, until the frittata is set and the top is slightly golden brown.",
+                "Remove from the oven and let cool for a few minutes.",
+                "Slice the frittata into wedges and serve hot with your desired toppings."
+            ]
+        },
+        {
+            type: "Ovo Vegetarian",
+            cuisine: "Western",
+            mealType: "Dinner/Lunch",
+            name: "Vegetable and Black Bean Enchiladas",
+            ingredients: [
+                "2 tablespoons olive oil",
+                "1 onion, chopped",
+                "2 cloves garlic, minced",
+                "1 red bell pepper, chopped",
+                "1 zucchini, chopped",
+                "1 can black beans, drained and rinsed (15 ounces)",
+                "1 cup corn kernels (fresh or frozen)",
+                "1 can diced tomatoes (14.5 ounces)",
+                "2 teaspoons chili powder",
+                "1 teaspoon ground cumin",
+                "1/2 teaspoon smoked paprika",
+                "1/4 teaspoon salt",
+                "1/4 teaspoon black pepper",
+                "8-10 corn tortillas",
+                "Optional toppings: chopped cilantro, sliced avocado, sour cream"
+            ],
+            instructions: [
+                "Preheat the oven to 375°F (190°C).",
+                "In a large skillet, heat the olive oil over medium-high heat.",
+                "In a large skillet, heat the olive oil over medium-high heat.",
+                "Add the red bell pepper and zucchini to the skillet and cook for another 3-4 minutes, until slightly softened.",
+                "Add the black beans, corn, diced tomatoes, chili powder, cumin, smoked paprika, salt, and black pepper to the skillet and stir to combine.",
+                "Reduce the heat to low and let the mixture simmer for 10-15 minutes.",
+                "Warm the corn tortillas in the oven or in a skillet.",
+                "Spread a spoonful of the vegetable and bean mixture onto each tortilla and roll up tightly.",
+                "Place the rolled-up tortillas seam-side down in a baking dish.",
+                "Sprinkle the shredded cheese over the top of the enchiladas.",
+                "Bake for 20-25 minutes, until the cheese is melted and bubbly.",
+                "Remove from the oven and let cool for a few minutes.",
+                "Serve hot with your desired toppings."
+            ]
+        },
+        {
+            type: "Ovo-lacto Vegetarian",
+            cuisine: "Western",
+            mealType: "Breakfast",
+            name: "Spinach and Mushroom Omelette",
+            ingredients: [
+                "2 eggs",
+                "1 tablespoon milk or non-dairy milk",
+                "Salt and black pepper, to taste",
+                "1 tablespoon butter or vegan butter",
+                "1/4 cup sliced mushrooms",
+                "1/4 cup chopped spinach",
+                "2 tablespoons shredded cheddar cheese (or vegan cheese)",
+                "Optional toppings: sliced avocado, chopped tomatoes, hot sauce"
+            ],
+            instructions: [
+                "In a mixing bowl, whisk together the eggs, milk, salt, and black pepper until well combined.",
+                "Heat a nonstick skillet over medium-high heat and add the butter.",
+                "Add the mushrooms to the skillet and cook for 2-3 minutes, until softened.",
+                "Add the chopped spinach to the skillet and cook for another 1-2 minutes, until wilted.",
+                "Pour the egg mixture into the skillet and let it cook for about 1 minute, until the bottom is set.",
+                "Use a spatula to lift the edges of the omelette and allow any uncooked egg to flow to the bottom of the skillet.",
+                "Sprinkle the shredded cheese over the top of the omelette.",
+                "Use the spatula to fold one side of the omelette over the filling and slide the omelette onto a plate.",
+                "Serve hot with your desired toppings."
+            ]
+        },
+        {
+            type: "Ovo-lacto Vegetarian",
+            cuisine: "Western",
+            mealType: "Dinner/Lunch",
+            name: "Vegetable Pot Pie",
+            ingredients: [
+                "1 tablespoon butter or vegan butter",
+                "1 onion, chopped",
+                "2 cloves garlic, minced",
+                "2 carrots, chopped",
+                "2 celery stalks, chopped",
+                "1 red bell pepper, chopped",
+                "1 zucchini, chopped",
+                "1 cup frozen peas",
+                "1/4 cup all-purpose flour",
+                "2 cups vegetable broth",
+                "1/4 cup milk or non-dairy milk",
+                "1 teaspoon dried thyme",
+                "Salt and black pepper, to taste",
+                "1 pre-made pie crust (store-bought or homemade)",
+                "1 egg, beaten (optional for egg wash)"
+            ],
+            instructions: [
+                "Preheat the oven to 375°F (190°C).",
+                "In a large pot, melt the butter over medium-high heat.",
+                "Add the onion and garlic to the pot and cook until softened, about 3-4 minutes.",
+                "Add the carrots, celery, red bell pepper, and zucchini to the pot and cook for another 3-4 minutes, until slightly softened.",
+                "Add the frozen peas to the pot and stir to combine.",
+                "Sprinkle the flour over the vegetable mixture and stir to coat.",
+                "Slowly pour in the vegetable broth and milk, stirring constantly, until the mixture thickens.",
+                "Add the thyme, salt, and black pepper to the pot and stir to combine.",
+                "Remove the pot from the heat.",
+                "Roll out the pie crust and place it in a 9-inch pie dish.",
+                "Pour the vegetable mixture into the pie crust.",
+                "If using an egg wash, brush the beaten egg over the top of the pie crust.",
+                "Use a sharp knife to make a few slits in the top of the pie crust.",
+                "Bake the pie for 45-50 minutes, until the crust is golden brown and the filling is bubbling.",
+                "Remove from the oven and let cool for a few minutes before serving."
+            ]
+        },
+        {
+            type: "Vegan",
+            cuisine: "European",
+            mealType: "Breakfast",
+            name: "Vegan Shakshuka",
+            ingredients: [
+                "1 tablespoon olive oil",
+                "1/2 onion, chopped",
+                "1 red bell pepper, chopped",
+                "2 cloves garlic, minced",
+                "1 can (14 ounces) diced tomatoes",
+                "1 teaspoon paprika",
+                "1/2 teaspoon cumin",
+                "Salt and black pepper, to taste",
+                "4-6 eggs (or vegan egg substitute)",
+                "2 tablespoons chopped fresh parsley (optional)"
+            ],
+            instructions: [
+                "Heat the olive oil in a large skillet over medium-high heat.",
+                "Add the onion and red bell pepper to the skillet and cook until softened, about 5-7 minutes.",
+                "Add the garlic to the skillet and cook for another minute, until fragrant",
+                "Pour the diced tomatoes (with their juice) into the skillet.",
+                "Add the paprika, cumin, salt, and black pepper to the skillet and stir to combine.",
+                "Let the mixture simmer for 5-10 minutes, until slightly thickened.",
+                "Crack the eggs on top of the tomato mixture, spacing them evenly.",
+                "Cover the skillet with a lid or foil and cook for 5-7 minutes, until the egg whites are set but the yolks are still runny (or cooked to your desired doneness).",
+                "Remove the skillet from the heat and sprinkle with chopped parsley, if using.",
+                "Serve the shakshuka with crusty bread or pita and enjoy!"
+            ]
+        },
+        {
+            type: "Vegan",
+            cuisine: "European",
+            mealType: "Dinner/Lunch",
+            name: "Vegan Mushroom Risotto",
+            ingredients: [
+                "1 tablespoon olive oil",
+                "1/2 onion, finely chopped",
+                "1 cup Arborio rice",
+                "2 cloves garlic, minced",
+                "4 cups vegetable broth",
+                "1/2 cup dry white wine",
+                "1/2 teaspoon cumin",
+                "1 cup sliced mushrooms",
+                "1/4 cup nutritional yeast",
+                "Salt and black pepper, to taste",
+                "Chopped fresh parsley, for serving"
+            ],
+            instructions: [
+                "Heat the olive oil in a large saucepan over medium heat.",
+                "Add the onion and garlic to the saucepan and cook until softened, about 5-7 minutes.",
+                "Add the Arborio rice to the saucepan and stir to coat in the oil.",
+                "Pour in the vegetable broth and white wine and bring to a boil.",
+                "Reduce the heat to low and let the mixture simmer, stirring occasionally, until the rice is tender and the liquid is absorbed, about 20-25 minutes.",
+                "Stir in the sliced mushrooms and nutritional yeast and cook for another 5-7 minutes, until the mushrooms are tender and the mixture is heated through.",
+                "Season with salt and black pepper, to taste.",
+                "Serve the risotto hot, garnished with chopped fresh parsley."
+            ]
+        },
+        {
+            type: "Pescatarian",
+            cuisine: "European",
+            mealType: "Breakfast",
+            name: "Spanish Omelette (Tortilla de Patatas)",
+            ingredients: [
+                "6 eggs",
+                "2 medium potatoes, peeled and thinly sliced",
+                "1 onion, thinly sliced",
+                "1/4 cup extra-virgin olive oil",
+                "Salt and black pepper, to taste",
+            ],
+            instructions: [
+                "Heat the olive oil in a non-stick skillet over medium heat.",
+                "Add the sliced potatoes and onions to the skillet and cook for about 15-20 minutes, stirring occasionally, until the potatoes are tender and lightly browned.",
+                "Remove the skillet from the heat and let cool for a few minutes.",
+                "In a bowl, beat the eggs with a pinch of salt and black pepper.",
+                "Add the cooked potatoes and onions to the egg mixture and stir to combine.",
+                "Heat the skillet again over medium heat and add the egg mixture to the skillet.",
+                "Cook the omelette for about 5 minutes or until the edges are set and the bottom is golden brown.",
+                "Using a large plate, carefully flip the omelette over and slide it back into the skillet to cook the other side for another 2-3 minutes or until cooked through.",
+                "Remove from the skillet and serve warm, cut into wedges."
+            ]
+        },
+        {
+            type: "Pescatarian",
+            cuisine: "European",
+            mealType: "Dinner/Lunch",
+            name: "Mediterranean Fish Stew",
+            ingredients: [
+                "1 lb white fish (cod, halibut, or sea bass), cut into chunks",
+                "2 tablespoons extra-virgin olive oil",
+                "1 onion, chopped",
+                "4 garlic cloves, minced",
+                "1 teaspoon paprika",
+                "1/4 teaspoon cayenne pepper",
+                "1/4 teaspoon dried oregano",
+                "1/4 teaspoon dried thyme",
+                "1 (14.5-ounce) can diced tomatoes",
+                "1 cup fish or vegetable broth",
+                "1/2 cup dry white wine",
+                "1 bay leaf",
+                "1 red bell pepper, seeded and chopped",
+                "1 small fennel bulb, trimmed and thinly sliced",
+                "1/2 cup pitted kalamata olives, chopped",
+                "Salt and black pepper, to taste",
+                "Fresh parsley, chopped, for garnish"
+            ],
+            instructions: [
+                "Add the onion and garlic and sauté until softened, about 5 minutes.",
+                "In a large pot or Dutch oven, heat the olive oil over medium heat.",
+                "Add the paprika, cayenne pepper, oregano, and thyme and cook for another minute.",
+                "Add the diced tomatoes with their juice, fish or vegetable broth, white wine, and bay leaf. Bring to a boil.",
+                "Reduce heat to medium-low and simmer for about 10 minutes.",
+                "Add the chopped red bell pepper, sliced fennel, and olives to the pot and continue to simmer for another 10 minutes.",
+                "Add the fish chunks to the pot and gently stir to combine. Simmer for another 5-7 minutes or until the fish is cooked through.",
+                "Season with salt and black pepper to taste.",
+                "Serve hot, garnished with fresh parsley."
+            ]
+        },
+        {
+            type: "Ovo Vegetarian",
+            cuisine: "European",
+            mealType: "Breakfast",
+            name: "German Apple Pancakes",
+            ingredients: [
+                "4 medium apples, peeled, cored and sliced into thin rounds",
+                "2 tablespoons unsalted butter",
+                "2 tablespoons brown sugar",
+                "1 teaspoon ground cinnamon",
+                "1/2 teaspoon ground nutmeg",
+                "1 cup all-purpose flour",
+                "1 tablespoon granulated sugar",
+                "1/2 teaspoon salt",
+                "1 cup milk",
+                "3 large eggs",
+                "1 teaspoon vanilla extract",
+                "2 tablespoons unsalted butter"
+            ],
+            instructions: [
+                "Preheat the oven to 425°F.",
+                "In a large skillet, melt the 2 tablespoons of butter over medium heat.",
+                "Add the sliced apples to the skillet and sprinkle with brown sugar, cinnamon, and nutmeg. Cook for 5-7 minutes or until the apples are softened and lightly caramelized.",
+                "In a large mixing bowl, whisk together the flour, granulated sugar, and salt.",
+                "In a separate mixing bowl, whisk together the milk, eggs, and vanilla extract.",
+                "Add the wet ingredients to the dry ingredients and whisk until the batter is smooth.",
+                "Melt the 2 tablespoons of butter in an oven-safe 10-inch skillet over medium heat.",
+                "Pour the batter into the skillet and arrange the cooked apple slices over the batter.",
+                "Bake in the oven for 18-20 minutes or until the pancake is golden brown and puffy.",
+                "Remove from the oven and allow the pancake to cool for a few minutes before slicing into wedges.",
+                "Serve hot, garnished with powdered sugar or maple syrup."
+            ]
+        },
+        {
+            type: "Ovo Vegetarian",
+            cuisine: "European",
+            mealType: "Dinner/Lunch",
+            name: "Greek Spinach Pie (Spanakopita)",
+            ingredients: [
+                "1 lb fresh spinach, washed and chopped",
+                "2 tablespoons extra-virgin olive oil",
+                "1 large onion, finely chopped",
+                "3 cloves garlic, minced",
+                "1/2 cup chopped fresh dill",
+                "1/2 cup chopped fresh parsley",
+                "1/2 cup crumbled feta cheese",
+                "1/2 cup grated Parmesan cheese",
+                "3 large eggs, beaten",
+                "Salt and black pepper, to taste",
+                "8 sheets phyllo dough, thawed",
+                "1/4 cup unsalted butter, melted"
+            ],
+            instructions: [
+                "Preheat the oven to 375°F.",
+                "In a large skillet, heat the olive oil over medium heat. Add the chopped onion and garlic and sauté until soft and fragrant, about 5 minutes.",
+                "Add the chopped spinach to the skillet and cook until wilted, about 5 minutes.",
+                "Remove the skillet from heat and let cool for a few minutes.",
+                "In a mixing bowl, combine the sautéed spinach mixture, dill, parsley, feta cheese, parmesan cheese, and beaten eggs. Season with salt and black pepper, to taste.",
+                "Brush a 9-inch pie dish with melted butter.",
+                "Lay one sheet of phyllo dough in the bottom of the pie dish and brush with melted butter. Repeat with 3 more sheets of phyllo dough, brushing each layer with melted butter.",
+                "Pour the spinach mixture over the phyllo dough in the pie dish, spreading it evenly.",
+                "Layer the remaining 4 sheets of phyllo dough on top of the spinach mixture, brushing each layer with melted butter.",
+                "Brush the top of the final phyllo layer with melted butter.",
+                "Bake in the preheated oven for 40-45 minutes, or until the phyllo is golden brown and crispy.",
+                "Remove the spanakopita from the oven and let cool for a few minutes before slicing and serving."
+            ]
+        },
+        {
+            type: "Ovo-lacto Vegetarian",
+            cuisine: "European",
+            mealType: "Breakfast",
+            name: "Swiss Bircher Muesli",
+            ingredients: [
+                "1 cup rolled oats",
+                "1 cup unsweetened almond milk (or milk of your choice)",
+                "1/4 cup plain Greek yogurt",
+                "1 tablespoon honey or maple syrup",
+                "1 medium apple, grated",
+                "1/4 cup chopped nuts (almonds, walnuts, or hazelnuts)",
+                "1/4 cup raisins or dried cranberries",
+                "1/4 teaspoon ground cinnamon",
+                "Fresh fruit, for serving (berries, sliced banana, sliced apple)"
+            ],
+            instructions: [
+                "In a large bowl, combine the rolled oats, almond milk, Greek yogurt, honey or maple syrup, grated apple, chopped nuts, raisins or cranberries, and cinnamon.",
+                "Stir well to combine.",
+                "Cover the bowl with plastic wrap or a lid and refrigerate overnight, or for at least 2 hours, to allow the flavors to meld and the oats to soften.",
+                "When ready to serve, give the muesli a good stir and divide it between serving bowls.",
+                "Top with fresh fruit of your choice, such as berries, sliced banana, or sliced apple."
+            ]
+        },
+        {
+            type: "Ovo-lacto Vegetarian",
+            cuisine: "European",
+            mealType: "Dinner/Lunch",
+            name: "Vegetarian Moussaka",
+            ingredients: [
+                "2 large eggplants, sliced",
+                "Salt",
+                "Olive oil",
+                "1 onion, chopped",
+                "2 garlic cloves, minced",
+                "1 red bell pepper, chopped",
+                "1 can diced tomatoes (14 ounces)",
+                "2 tablespoons tomato paste",
+                "1 tablespoon chopped fresh oregano",
+                "1 teaspoon ground cinnamon",
+                "1/2 teaspoon ground nutmeg",
+                "Salt and pepper, to taste",
+                "1 cup crumbled feta cheese",
+                "1 cup ricotta cheese",
+                "1/2 cup grated Parmesan cheese",
+                "2 eggs, lightly beaten",
+                "1/4 cup chopped fresh parsley",
+                "1/4 cup chopped fresh mint",
+                "1/4 cup breadcrumbs"
+            ],
+            instructions: [
+                "Preheat the oven to 400°F (200°C).",
+                "Sprinkle the eggplant slices with salt and let them sit for about 30 minutes to release the excess moisture. Rinse them and pat them dry with paper towels.",
+                "Arrange the eggplant slices in a single layer on a baking sheet and brush them with olive oil. Bake for 20-25 minutes, until tender and golden brown.",
+                "Remove from the oven and let them cool.",
+                "Meanwhile, heat a large skillet over medium heat and add some olive oil.",
+                "Add the onion, garlic, and red bell pepper and cook until softened, about 5 minutes.",
+                "Add the diced tomatoes, tomato paste, oregano, cinnamon, nutmeg, salt, and pepper.",
+                "Bring to a simmer and cook for 10 minutes, stirring occasionally.",
+                "In a separate bowl, combine the crumbled feta cheese, ricotta cheese, Parmesan cheese, eggs, parsley, and mint. Mix well.",
+                "In a 9x13 inch (23x33 cm) baking dish, layer the eggplant slices and tomato sauce.",
+                "Spread the cheese mixture on top and sprinkle with breadcrumbs.",
+                "Bake for 45-50 minutes, until the top is golden brown and the filling is hot and bubbly.",
+                "Let it cool for a few minutes before serving."
+            ]
+        },
+        {
+            type: "Vegan",
+            cuisine: "South Asian",
+            mealType: "Breakfast",
+            name: "Poha",
+            ingredients: [
+                "1 cup flattened rice (poha)",
+                "1 small onion, finely chopped",
+                "1 small tomato, finely chopped",
+                "1 green chili, finely chopped",
+                "1/4 teaspoon turmeric powder",
+                "1/4 teaspoon cumin seeds",
+                "1/4 teaspoon mustard seeds",
+                "1/4 teaspoon red chili powder",
+                "Salt to taste",
+                "1 tablespoon oil",
+                "Fresh coriander leaves, finely chopped for garnish",
+                "Lemon wedges for serving"
+            ],
+            instructions: [
+                "Rinse the flattened rice in a colander and soak in enough water for 5-7 minutes.",
+                "Then drain the water and keep the flattened rice aside.",
+                "Heat oil in a pan on medium heat, add mustard seeds and let them splutter.",
+                "Then add cumin seeds, green chili and onion. Saute until onions become translucent.",
+                "Add chopped tomatoes and cook until they become soft.",
+                "Add turmeric powder, red chili powder, and salt. Mix well and cook for a minute.",
+                "Add the flattened rice and mix well with the masala. Cook for 2-3 minutes, stirring occasionally.",
+                "Turn off the heat and garnish with fresh coriander leaves.",
+                "Serve hot with lemon wedges on the side."
+            ]
+        },
+        {
+            type: "Vegan",
+            cuisine: "South Asian",
+            mealType: "Dinner/Lunch",
+            name: "Vegan Pakistani Chana Pulao",
+            ingredients: [
+                "1 cup basmati rice",
+                "1 can chickpeas, drained and rinsed",
+                "1 onion, finely chopped",
+                "2 cloves garlic, minced",
+                "1 teaspoon cumin seeds",
+                "1 teaspoon coriander seeds",
+                "1 teaspoon garam masala",
+                "1 teaspoon salt",
+                "2 cups vegetable broth",
+                "2 tablespoons oil"
+            ],
+            instructions: [
+                "Rinse the rice in cold water until the water runs clear. Soak the rice in cold water for 30 minutes, then drain.",
+                "In a large pot, heat the oil over medium-high heat. Add the cumin seeds and coriander seeds and cook until fragrant, about 30 seconds.",
+                "Add the onion and garlic and cook until the onion is translucent, about 5 minutes.",
+                "Add the chickpeas, garam masala, and salt, and stir to combine.",
+                "Add the rice to the pot and stir to combine with the chickpeas and spices.",
+                "Pour in the vegetable broth and bring the mixture to a boil. Reduce the heat to low, cover the pot, and let simmer for 20 minutes, or until the rice is cooked through and the liquid is absorbed.",
+                "Fluff the rice with a fork and serve hot."
+            ]
+        },
+        {
+            type: "Vegan",
+            cuisine: "East Asian",
+            mealType: "Breakfast",
+            name: "Vegan Korean Vegetable Pancakes (Yachaejeon)",
+            ingredients: [
+                "1 cup all-purpose flour",
+                "1 cup water",
+                "1/2 teaspoon salt",
+                "1/4 teaspoon black pepper",
+                "2 cups chopped mixed vegetables (such as zucchini, scallions, carrots, and mushrooms)",
+                "2 tablespoons vegetable oil",
+                "Soy sauce and/or vinegar, for dipping (optional)"
+            ],
+            instructions: [
+                "In a large bowl, whisk together the flour, water, salt, and black pepper until smooth.",
+                "Stir in the chopped vegetables until they are evenly coated in the batter.",
+                "Heat 1 tablespoon of the vegetable oil in a nonstick skillet over medium heat.",
+                "Drop spoonfuls of the batter into the skillet, using the back of the spoon to flatten each pancake slightly.",
+                "Cook the pancakes for 2-3 minutes on each side, or until golden brown and crispy.",
+                "Repeat with the remaining batter, adding more oil to the skillet as needed.",
+                "Serve the pancakes hot, with soy sauce and/or vinegar for dipping, if desired."
+            ]
+        },
+        {
+            type: "Vegan",
+            cuisine: "East Asian",
+            mealType: "Dinner/Lunch",
+            name: "Vegan Ramen Noodle Bowl",
+            ingredients: [
+                "4 cups vegetable broth",
+                "1 tablespoon soy sauce",
+                "1 tablespoon miso paste",
+                "1 teaspoon sesame oil",
+                "1 teaspoon grated ginger",
+                "2 cloves garlic, minced",
+                "8 oz ramen noodles",
+                "1 block extra firm tofu, drained and pressed",
+                "1 carrot, julienned",
+                "1/2 cup sliced mushrooms",
+                "1/2 cup sliced green onions",
+                "1/4 cup chopped cilantro",
+                "Sriracha sauce (optional)"
+            ],
+            instructions: [
+                "In a large pot, bring the vegetable broth to a boil over medium-high heat. Reduce the heat to low and add the soy sauce, miso paste, sesame oil, ginger, and garlic.",
+                "Stir to combine and let the broth simmer for 10-15 minutes to allow the flavors to meld together.",
+                "While the broth is simmering, cook the ramen noodles according to the package instructions. Drain and set aside.",
+                "Heat a non-stick pan over medium heat. Cut the tofu into small cubes and add them to the pan. Cook for 5-7 minutes until golden brown and crispy.",
+                "Divide the cooked ramen noodles into four bowls. Top each bowl with the chickpea curry and the cooked tofu.",
+                "Ladle the hot broth over the noodles and tofu in each bowl. Top with the julienned carrot, sliced mushrooms, green onions, and cilantro. Serve immediately with a drizzle of sriracha sauce, if desired."
+            ]
+        },
+        {
+            type: "Pescatarian",
+            cuisine: "South Asian",
+            mealType: "Breakfast",
+            name: "Sri Lankan Fish Buns",
+            ingredients: [
+                "1 1/2 cups of all-purpose flour",
+                "1 teaspoon of active dry yeast",
+                "1 tablespoon of sugar",
+                "1/4 teaspoon of salt",
+                "1/4 cup of warm water",
+                "1/4 cup of warm milk",
+                "2 tablespoons of vegetable oil",
+                "1/2 onion, chopped",
+                "2 garlic cloves, minced",
+                "1/2 teaspoon of chili powder",
+                "1/2 teaspoon of curry powder",
+                "1/2 teaspoon of turmeric powder",
+                "1/2 teaspoon of black pepper",
+                "1/2 teaspoon of mustard seeds",
+                "1/2 teaspoon of cumin seeds",
+                "1/2 teaspoon of fennel seeds",
+                "1/2 pound of boneless, skinless white fish (such as cod or tilapia), chopped into small pieces",
+                "Salt to taste",
+                "Vegetable oil for frying"
+            ],
+            instructions: [
+                "In a bowl, mix together the flour, yeast, sugar, and salt. Add the warm water and warm milk and mix until a dough forms.",
+                "Knead the dough for about 5 minutes until it becomes smooth and elastic. Cover with a damp cloth and let it rest for 1 hour.",
+                "While the dough is resting, prepare the filling. Heat the vegetable oil in a pan over medium heat.",
+                "Add the onion and garlic and sauté for 2-3 minutes until softened.",
+                "Add the chili powder, curry powder, turmeric, black pepper, mustard seeds, cumin seeds, and fennel seeds and stir to combine.",
+                "Add the chopped fish and salt and cook for 5-7 minutes until the fish is cooked through. Set aside to cool.",
+                "Preheat the oven to 350°F.",
+                "On a floured surface, divide the dough into 8-10 equal parts.",
+                "Roll each part into a ball and flatten it with your hands into a small disc.",
+                "Place a spoonful of the fish filling in the center of each disc. Bring the edges of the dough together to seal the filling and shape it into a ball.",
+                "Heat the vegetable oil in a deep frying pan over medium heat. Fry the buns until they are golden brown on all sides, about 3-5 minutes.",
+                "Once the buns are fried, place them on a baking sheet and bake in the preheated oven for an additional 10 minutes to ensure that the dough is cooked all the way through."
+            ]
+        },
+        {
+            type: "Pescatarian",
+            cuisine: "South Asian",
+            mealType: "Dinner/Lunch",
+            name: "Thai Basil Shrimp",
+            ingredients: [
+                "1 lb. medium to large shrimp, peeled and deveined",
+                "1 tablespoon vegetable oil",
+                "4 garlic cloves, minced",
+                "1 small onion, chopped",
+                "1 red bell pepper, sliced",
+                "1 green bell pepper, sliced",
+                "2-3 Thai bird's eye chilies, chopped (or to taste)",
+                "1 tablespoon fish sauce",
+                "1 tablespoon oyster sauce",
+                "1 teaspoon sugar",
+                "1/2 teaspoon ground black pepper",
+                "1 cup fresh Thai basil leaves",
+                "Cooked rice, for serving"
+            ],
+            instructions: [
+                "Heat the vegetable oil in a wok or large skillet over high heat.",
+                "Add the garlic and stir-fry for about 10 seconds until fragrant.",
+                "Add the onion, red and green bell peppers, and Thai chilies. Stir-fry for 1-2 minutes until the vegetables are slightly softened.",
+                "Add the shrimp and stir-fry for 2-3 minutes until they turn pink.",
+                "Add the fish sauce, oyster sauce, sugar, and black pepper. Stir-fry for another minute or until the sauce is evenly distributed.",
+                "Add the Thai basil leaves and stir-fry for another 30 seconds until they are wilted.",
+                "Serve hot with cooked rice."
+            ]
+        },
+        {
+            type: "Pescatarian",
+            cuisine: "East Asian",
+            mealType: "Breakfast",
+            name: "Scallion Pancakes with Soy-Ginger Dipping Sauce",
+            ingredients: [
+                "1 1/2 cups all-purpose flour",
+                "1/2 tsp salt",
+                "1/2 cup boiling water",
+                "1/4 cup cold water",
+                "1 tbsp vegetable oil",
+                "4-5 scallions, thinly sliced",
+                "2 tbsp sesame oil",
+                "1 tbsp soy sauce",
+                "1 tsp rice vinegar",
+                "1 tsp grated ginger",
+                "1 tsp honey",
+                "1/4 tsp red pepper flakes (optional)",
+                "Salt and pepper, to taste"
+            ],
+            instructions: [
+                "In a large mixing bowl, combine the flour and salt. Slowly pour in the boiling water, stirring with a wooden spoon or chopsticks until the dough comes together.",
+                "Add the cold water and knead the dough on a floured surface for 5-7 minutes until smooth and elastic. Cover the dough with a damp towel and let it rest for 30 minutes.",
+                "In a small bowl, whisk together the sesame oil, soy sauce, rice vinegar, ginger, honey, red pepper flakes (if using), and a pinch of salt and pepper to make the dipping sauce. Set aside.",
+                "After the dough has rested, divide it into four equal pieces. Roll out each piece into a thin circle about 8-10 inches in diameter.",
+                "Brush each circle with vegetable oil and sprinkle with sliced scallions, pressing them lightly into the dough.",
+                "Roll up each circle like a jelly roll and then twist the roll into a spiral shape.",
+                "Flatten each spiral with your palm and roll out again into a 8-10 inch circle.",
+                "Heat a non-stick pan over medium-high heat. Cook each pancake for 2-3 minutes on each side until golden brown and crispy.",
+                "Serve hot with the soy-ginger dipping sauce on the side."
+            ]
+        },
+        {
+            type: "Pescatarian",
+            cuisine: "East Asian",
+            mealType: "Dinner/Lunch",
+            name: "Sesame Ginger Salmon with Bok Choy and Mushrooms",
+            ingredients: [
+                "4 salmon fillets",
+                "4 baby bok choy, sliced in half",
+                "8 oz mushrooms, sliced",
+                "2 tbsp sesame oil",
+                "1 tbsp grated ginger",
+                "3 garlic cloves, minced",
+                "2 tbsp soy sauce",
+                "2 tbsp honey",
+                "1 tbsp rice vinegar",
+                "1 tbsp cornstarch",
+                "Salt and pepper to taste",
+                "Cooked rice, for serving"
+            ],
+            instructions: [
+                "Preheat the oven to 400°F (200°C).",
+                "In a small bowl, whisk together the soy sauce, honey, rice vinegar, and cornstarch. Set aside.",
+                "In a large skillet over medium-high heat, add the sesame oil. Once hot, add the garlic and ginger and cook for 1-2 minutes until fragrant.",
+                "Add the mushrooms and bok choy to the skillet and cook for 3-4 minutes, stirring occasionally, until tender.",
+                "Season the salmon fillets with salt and pepper, then place them on top of the vegetables in the skillet.",
+                "Pour the soy sauce mixture over the salmon and vegetables.",
+                "Transfer the skillet to the oven and bake for 12-15 minutes, until the salmon is cooked through.",
+                "Serve the salmon and vegetables over cooked rice."
+            ]
+        },
+        {
+            type: "Ovo Vegetarian",
+            cuisine: "South Asian",
+            mealType: "Breakfast",
+            name: "Mango Coconut Chia Pudding",
+            ingredients: [
+                "1/2 cup chia seeds",
+                "1 1/2 cups coconut milk",
+                "1/2 cup diced fresh mango",
+                "2 tbsp honey or maple syrup",
+                "1 tsp vanilla extract",
+                "1/4 tsp ground cardamom",
+                "1/4 cup unsweetened shredded coconut"
+            ],
+            instructions: [
+                "In a mixing bowl, whisk together the chia seeds, coconut milk, honey or maple syrup, vanilla extract, and cardamom.",
+                "Stir in the diced mango and shredded coconut.",
+                "Cover and refrigerate for at least 2 hours, or overnight.",
+                "Stir the mixture again before serving and add more coconut milk or sweetener if desired.",
+                "Optional: top the pudding with fresh fruit, nuts, or granola.",
+            ]
+        },
+        {
+            type: "Ovo Vegetarian",
+            cuisine: "South Asian",
+            mealType: "Dinner/Lunch",
+            name: "Vietnamese Pho",
+            ingredients: [
+                "8 cups vegetable broth",
+                "1 onion, sliced",
+                "4 garlic cloves, minced",
+                "1 ginger root, sliced",
+                "2 cinnamon sticks",
+                "3 star anise",
+                "3 whole cloves",
+                "2 carrots, peeled and sliced",
+                "1 cup sliced mushrooms",
+                "1 cup sliced bok choy",
+                "1 tablespoon soy sauce",
+                "8 oz rice noodles",
+                "2 boiled eggs, peeled and halved",
+                "1 lime, cut into wedges",
+                "1/4 cup chopped cilantro",
+                "1/4 cup chopped green onions",
+                "Sriracha sauce (optional)"
+            ],
+            instructions: [
+                "In a large pot, add the vegetable broth, onion, garlic, ginger, cinnamon sticks, star anise, and cloves. Bring to a boil, then reduce heat and let simmer for about 30 minutes.",
+                "Strain the broth into a separate pot and discard the solids.",
+                "Add the carrots, mushrooms, bok choy, and soy sauce to the broth. Simmer for another 5-7 minutes, or until the vegetables are tender.",
+                "While the vegetables are cooking, cook the rice noodles according to package instructions. Drain and set aside.",
+                "Divide the noodles among four bowls. Pour the hot broth and vegetables over the noodles.",
+                "Top each bowl with a boiled egg half, lime wedge, cilantro, green onions, and sriracha sauce (if using)."
+            ]
+        },
+        {
+            type: "Ovo Vegetarian",
+            cuisine: "East Asian",
+            mealType: "Breakfast",
+            name: "Red Bean Paste Buns",
+            ingredients: [
+                "2 cups all-purpose flour",
+                "1/2 cup warm water",
+                "1/2 cup milk",
+                "1/4 cup sugar",
+                "1 tablespoon active dry yeast",
+                "1/4 teaspoon salt",
+                "1/2 cup red bean paste",
+                "vegetable oil for greasing" 
+            ],
+            instructions: [
+                "In a large pot, add the vegetable broth, onion, garlic, ginger, cinnamon sticks, star anise, and cloves. Bring to a boil, then reduce heat and let simmer for about 30 minutes.",
+                "Strain the broth into a separate pot and discard the solids.",
+                "Add the carrots, mushrooms, bok choy, and soy sauce to the broth. Simmer for another 5-7 minutes, or until the vegetables are tender.",
+                "While the vegetables are cooking, cook the rice noodles according to package instructions. Drain and set aside.",
+                "Divide the noodles among four bowls. Pour the hot broth and vegetables over the noodles.",
+                "Top each bowl with a boiled egg half, lime wedge, cilantro, green onions, and sriracha sauce (if using)."
+            ]
+        },
+        {
+            type: "Ovo Vegetarian",
+            cuisine: "Eash Asian",
+            mealType: "Dinner/Lunch",
+            name: "Tofu and Vegetable Stir-Fry",
+            ingredients: [
+                "1 block of firm tofu",
+                "1 red bell pepper",
+                "1 yellow bell pepper",
+                "1 small onion",
+                "2 garlic cloves",
+                "1 small head of broccoli",
+                "1 tablespoon cornstarch",
+                "2 tablespoons soy sauce",
+                "1 tablespoon hoisin sauce",
+                "1 tablespoon vegetable oil",
+                "Salt and pepper to taste",
+                "Cooked rice, for serving"
+            ],
+            instructions: [
+                "Press the tofu to remove any excess water and cut it into cubes.",
+                "Cut the bell peppers and onion into thin strips, and chop the garlic.",
+                "Cut the broccoli into small florets and blanch them in boiling water for 2-3 minutes, then drain.",
+                "In a small bowl, mix together the cornstarch, soy sauce, hoisin sauce, and 1/4 cup of water.",
+                "Heat the vegetable oil in a wok or large skillet over medium-high heat.",
+                "Add the tofu and cook until golden brown on all sides, about 5-7 minutes.",
+                "Add the bell peppers, onion, garlic, and blanched broccoli to the wok and stir-fry for another 3-4 minutes, until the vegetables are tender-crisp.",
+                "Pour the sauce over the vegetables and tofu, and stir-fry for another minute or two until the sauce thickens and coats everything evenly.",
+                "Season with salt and pepper to taste.",
+                "Serve with cooked rice."
+            ]
+        },
+        {
+            type: "Ovo-lacto Vegetarian",
+            cuisine: "South Asian",
+            mealType: "Breakfast",
+            name: "Sri Lankan-style coconut roti served with a spicy sambal sauce",
+            ingredients: [
+                "2 cups flour",
+                "1 cup freshly grated coconut",
+                "1/2 teaspoon salt",
+                "1/2 teaspoon sugar",
+                "1/2 teaspoon baking powder",
+                "1/2 cup warm water",
+                "Oil for cooking",
+                "For the sambal sauce:",
+                "2-3 red chilies, chopped",
+                "2 small onions, chopped",
+                "1/4 cup freshly grated coconut",
+                "1/4 teaspoon salt",
+                "1 tablespoon lime juice"
+            ],
+            instructions: [
+                "In a mixing bowl, combine the flour, grated coconut, salt, sugar, and baking powder. Mix well.",
+                "Gradually add in the warm water and knead the mixture until it forms a dough. Let the dough rest for about 10 minutes.",
+                "Divide the dough into 6-8 portions and roll each portion into a ball.",
+                "On a lightly floured surface, roll out each ball of dough into a flat circle, about 1/4 inch thick.",
+                "Heat a non-stick pan over medium heat and brush with a little bit of oil.",
+                "Place the roti on the pan and cook until the bottom is lightly browned, then flip and cook the other side.",
+                "Repeat with the remaining dough balls until all the roti are cooked.",
+                "For the sambal sauce: In a blender, combine the red chilies, onions, grated coconut, salt, and lime juice. Blend until a smooth paste is formed. Serve the coconut roti hot with the sambal sauce on the side."
+            ]
+        },
+        {
+            type: "Ovo-lacto Vegetarian",
+            cuisine: "South Asian",
+            mealType: "Dinner/Lunch",
+            name: "Gado Gado",
+            ingredients: [
+                "2 cups of cooked white rice",
+                "2 hard-boiled eggs, sliced",
+                "1 cup of shredded cabbage",
+                "1 cup of sliced cucumber",
+                "1 cup of bean sprouts",
+                "1 cup of sliced green beans",
+                "1 block of firm tofu, cut into small cubes",
+                "1/2 cup of roasted peanuts",
+                "1/4 cup of fried shallots",
+                "1/2 cup of peanut butter",
+                "2 tablespoons of soy sauce",
+                "2 tablespoons of tamarind paste",
+                "1 tablespoon of honey",
+                "1 clove of garlic, minced",
+                "1/4 cup of water",
+                "Salt and pepper to taste"
+            ],
+            instructions: [
+                "Cook the rice according to package instructions and set aside.",
+                "In a large mixing bowl, combine the shredded cabbage, sliced cucumber, bean sprouts, and sliced green beans.",
+                "In a separate pan, sauté the cubed tofu until lightly browned on all sides.",
+                "Add the cooked tofu to the bowl of vegetables.",
+                "To make the dressing, combine the peanut butter, soy sauce, tamarind paste, honey, minced garlic, and water in a small bowl. Mix well until everything is combined.",
+                "Pour the dressing over the vegetables and tofu in the large mixing bowl. Mix everything together until the vegetables are coated with the dressing.",
+                "Serve the Gado Gado over the cooked white rice and garnish with the sliced hard-boiled eggs, roasted peanuts, and fried shallots."
+            ]
+        },
+        {
+            type: "Ovo-lacto Vegetarian",
+            cuisine: "East Asian",
+            mealType: "Breakfast",
+            name: "Congee",
+            ingredients: [
+                "1 cup of rice",
+                "6 cups of vegetable broth or water",
+                "1-inch piece of ginger, minced",
+                "1 garlic clove, minced",
+                "1 tablespoon of soy sauce",
+                "1 tablespoon of sesame oil",
+                "Salt and pepper to taste",
+                "Chopped green onions",
+                "Crispy fried shallots",
+                "Soy sauce or tamari",
+                "Toasted sesame seeds",
+                "Sriracha sauce"  
+            ],
+            instructions: [
+                "Rinse the rice under cold water until the water runs clear. Drain well and transfer to a large pot.",
+                "Add the vegetable broth or water, ginger, and garlic to the pot and stir to combine.",
+                "Bring the mixture to a boil, then reduce the heat to low and simmer for 1-1.5 hours, stirring occasionally. The congee should be thick and creamy.",
+                "Once the congee is done, stir in the soy sauce and sesame oil. Add salt and pepper to taste.",
+                "Ladle the congee into bowls and serve hot, topped with your desired toppings.",
+            ]
+        },
+        {
+            type: "Ovo-lacto Vegetarian",
+            cuisine: "East Asian",
+            mealType: "Dinner/Lunch",
+            name: "Vegetable Fried Rice",
+            ingredients: [
+                "2 cups cooked white rice, preferably day-old",
+                "1/2 cup peas",
+                "1/2 cup diced carrots",
+                "1/2 cup chopped green onions",
+                "1/4 cup diced onion",
+                "2 cloves garlic, minced",
+                "1/4 cup soy sauce",
+                "2 tablespoons vegetable oil",
+                "2 eggs, lightly beaten",
+                "Salt and pepper to taste"
+            ],
+            instructions: [
+                "Heat the vegetable oil in a large skillet or wok over medium-high heat.",
+                "Add the diced onion and minced garlic and cook for 1-2 minutes until fragrant.",
+                "Add the diced carrots and cook for another 2-3 minutes until slightly softened.",
+                "Add the cooked white rice, peas, and chopped green onions to the skillet and stir to combine.",
+                "Make a well in the center of the rice mixture and pour in the lightly beaten eggs.",
+                "Scramble the eggs until cooked and then mix with the rice.",
+                "Pour the soy sauce over the rice mixture and stir to combine. Season with salt and pepper to taste.",
+                "Cook for another 2-3 minutes, stirring occasionally, until heated through and slightly crispy."
+            ]
+        }
     ]
 }

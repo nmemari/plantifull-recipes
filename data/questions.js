@@ -1,16 +1,16 @@
 export const questions = {
     questions: [
         {
-            questions: "",
-            options: []
+            question: "Which type do you practice?",
+            options: ["Vegan", "Pescatarian", "Ovo Vegetarian", "Ovo-lacto Vegetarian"]
         },
         {
-            questions: "",
-            options: []
+            question: "What cuisines are you into?",
+            options: ["Western", "European", "South Asian", "East Asian"]
         },
         {
-            questions: "",
-            options: []
+            question: "What type of meal are you having?",
+            options: ["Breakfast", "Dinner/Lunch"]
         },
     ]
 }
