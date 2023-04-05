@@ -2,7 +2,7 @@
 
 ## App Developers
 
-- Lauryn Kung
+- Lauryn Kung :
 - Thamasha Amara
 - Navid Memari
 
