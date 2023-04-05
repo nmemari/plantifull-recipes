@@ -4,7 +4,7 @@ export const recipe = {
             type: "Vegan",
             cuisine: "Western",
             mealType: "Breakfast",
-            name: "Vegan Banna Bread Pancakes with Chocolate Chunks",
+            name: "Vegan Banana Bread Pancakes with Chocolate Chunks",
             ingredients: [
                 "1 very ripe banana and a few slices for garnish",
                 "3/4 cup unsweetened plant-based milk e.g. rice milk",
@@ -20,7 +20,7 @@ export const recipe = {
                 "Add flour, baking powder, and hazelnut meal. Whisk.",
                 "Add chocolate chunks. Fold in.",
                 "Brush/spray a pan with coconut oil. Use an ice cream scoop to add the pancake batter to the pan (over low to medium heat).",
-                " Do you see the bubbles in the middle and the corners that have set? It's time to Flip! Let the pancake cook on the other side until golden. Repeat until you’ve used up the pancake batter.",
+                "Do you see the bubbles in the middle and the corners that have set? It's time to Flip! Let the pancake cook on the other side until golden. Repeat until you’ve used up the pancake batter.",
                 "Stack the pancakes. Top with banana slices and hazelnut meal and drizzle with maple syrup."
             ],
         },
