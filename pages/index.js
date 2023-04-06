@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import WelcomeBox from '@/components/WelcomeBox'
 import Sprout from '@/public/logos/Logo_no-bkg.svg'
+import NavbarHollow from '@/components/NavbarHollow'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <header></header>
+        <NavbarHollow />
         <section className={styles.logoSection}>
           <Image className={styles.sprout} src={Sprout} width={250} height={300}/>
         </section>
