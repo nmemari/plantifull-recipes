@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Story.module.css'
+import DialogueBox from '@/components/DialogueBox'
+import StoryCarousel from '@/components/storyCarousel'
+import NavbarHollow from '@/components/NavbarHollow'
 
 export default function Story() {
   return (
@@ -12,7 +15,8 @@ export default function Story() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        
+        <NavbarHollow />
+        <StoryCarousel />
       </main>
     </>
   )
