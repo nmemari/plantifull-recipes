@@ -29,9 +29,9 @@ export default function StoryCarousel() {
 
     return (
     <div className={styles.container}>      
-        <Image className={styles.img} src={storyData[number].image} width={400} height={400}/>
+        <Image className={styles.img} src={data[number].image} width={400} height={400}/>
         <DialogueBox className={styles.box}
-            text={storyData[number].dialogue}
+            text={data[number].dialogue}
         />
         <div className={styles.btnContainer}>
             <button className={styles.btn} onClick={() => setNumber(number - 1)} style={{

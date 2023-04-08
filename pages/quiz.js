@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Quiz.module.css'
 import QuestionBoxOne from '@/components/QuestionBoxOne'
+import QuestionBoxTwo from '@/components/QuestionBoxTwo'
+import QuestionBoxThree from '@/components/QuestionBoxThree'
 
 export default function Quiz() {
   return (
@@ -13,7 +15,15 @@ export default function Quiz() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <QuestionBoxOne />
+        <div className={styles.questionCont}>
+          <QuestionBoxThree />
+        </div>
+        <div className={styles.questionCont}>
+          <QuestionBoxTwo />
+        </div>
+        <div className={styles.questionCont}>
+          <QuestionBoxOne />
+        </div>
       </main>
     </>
   )
