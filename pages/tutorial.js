@@ -13,9 +13,11 @@ export default function Tutorial() {
       </Head>
       <main className={styles.main}>
         <section>
-          <Image className={styles.tutimg1} src="/tutimg1" width={200} height={200}/>
-        <Image className={styles.tutimg2} src={tutimg2} width={100} height={100} />
-        <Image className={styles.tutimg3} src={tutimg3} width={100} height={100} /> */}
+          <div className={styles.tutimgs}>
+          <Image className={styles.tuteimg1} src="/tutorialpage/tuteimg1.png" width={310} height={631}/>
+          <Image className={styles.tuteimg2} src="/tutorialpage/tuteimg2.png" width={310} height={631}/>
+          <Image className={styles.tuteimg3} src="/tutorialpage/tuteimg3.png" width={310} height={631}/>            
+          </div>          
         </section>
       </main>
     </>

@@ -6,28 +6,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85%;
-    margin-bottom: 50px;
+    width: 73%;
+    margin-bottom: 70px;
 }
 
 .beginBox{
     background-color: var(--hunter-green);
-    border-radius: 10px;
-    padding:  15px;  
+    border-radius: 10px; 
 }
 
-.beginBox h3{
+.beginBox h6 {
     color: white; 
-    font-family: 'Anybody', cursive;
-    font-size: 32px; 
-    text-align:center; 
+    font-family: 'Grandstander', cursive;
+    font-size: 22px; 
+    text-align:center;
+    padding: 1%;
 }
 
-.beginBox h4{
+.beginBox p{
     color: white;
     font-family: 'Anybody', cursive;
     font-size: 20px; 
-    text-align:center; 
+    text-align: center; 
+    padding-top: -5%;
 }
 
 .btn {
