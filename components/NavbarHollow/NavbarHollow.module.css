@@ -1,0 +1,97 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.sideBarBtn {
+    background-color: var(--laurel-green);
+    border: none;
+    border-radius: 60px;
+    padding: 15px;
+    transition: 200ms;
+}
+
+.sideBarBtn:hover {
+    background-color: var(--light-green);
+    cursor: pointer;
+}
+
+.menuComp {
+    height: 10px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 7px;
+    background-color: var(--hunter-green);
+}
+
+.sideBar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    width: 60%;
+    border: 10px var(--kobicha) solid;
+    border-radius: 10px;
+    background-color: var(--fern-green);
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBarClose {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    background-color: var(--fern-green);
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-family: 'Grandstander', cursive;
+    font-size: 30px;
+    color: var(--earth-yellow);
+    font-weight: 900;
+    border-radius: 60px;
+    transition: 200ms;
+}
+
+.sideBarClose:hover {
+    background-color: var(--laurel-green);
+    cursor: pointer;
+}
+
+.sideBarMenu {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.sideBarItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    transition: 200ms;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.sideBarItem:hover {
+    background-color: var(--laurel-green);
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Grandstander', cursive;
+    color: white;
+}
+
+.barIcon {
+    margin-right: 30px;
+}

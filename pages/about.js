@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/About.module.css'
+import missionSprout from '@/public/logos/ourMission.svg'
+import solutionSprout from '@/public/logos/ourSolution.svg'
+import NavbarHollow from '@/components/NavbarHollow'
 
 export default function About() {
   return (
@@ -12,7 +15,37 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        
+
+        <div className={styles.container}>
+          <NavbarHollow/>
+
+          <h1 className={styles.header}>About Us</h1>
+
+          <h2 className={styles.missionSubhead}>Our Mission</h2>
+
+          <section className={styles.missionSprout}>
+            <Image src={missionSprout} width={200} height={300}/>
+          </section>
+          
+          <p className={styles.ourMission}>
+            Here at Plantifull Recipes our goal is to help support and grow the Vegan and Vegetarian community. We believe in not only helping the planet but eating healthier in a funny and tasty manner! We hope that we can help encourage curious eaters to try our vegan and vegetarian recipes and break the stigma that plant based meals aren’t delicious or can’t make for a filling meal. Not only can we save the world by cutting down on the amount of meat product we consume but we can also save millions animals from being slaughtered every year in unethically practiced slaughter houses and farms. 
+          </p>
+
+          <h2 className={styles.solutionSubhead}>Our Solution</h2>
+
+          <section className={styles.solutionSprout}>
+            <Image src={solutionSprout} width={250} height={350}/>
+          </section>
+
+          <p className={styles.ourSolution1}>
+          When we asked ourselves what factors were stopping people from converting to a vegan or vegetarian diet, we found out that a lot of people had misconceptions about plant based dishes. One of the first being that, Vegan and Vegetarian food is limited in the cuisines that it offers. This is incorrect. Additionally, in order to prove that Vegan and Vegetarian dishes span a wide variety of cuisines, we created and researched countless vegan and vegetarian recipes from around the world including from East Asia, South Asia, Europe and North America so that anyone can enjoy a recipe that suits their taste. Not only this, but we also categorized meals for different meals of the day for your cooking pleasure. So rest assured we’ve got you covered both breakfast and dinner.
+          </p>
+
+          <p className={styles.ourSolution2}>
+            The second other reason why people are reluctant to switch is due to them missing meat. This is not a problem! We know the transition from meat to a completely plant based diet isn’t an easy one and that not everyone has the same dietary needs. So we’ve included a wide range of recipes that caters to sub-groups of Vegetarianism including, Pescatarians, Ovo-Vegertarians and Lacto-Ovo-Vegetarians. We want to be inclusive to all sub categories of Vegetarianism and don’t want to shame anyone for their dietary needs.
+          </p>
+        </div>
+
       </main>
     </>
   )
