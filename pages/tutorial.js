@@ -13,7 +13,7 @@ export default function Tutorial() {
       </Head>
       <main className={styles.main}>
         <section>
-        {/* <Image className={styles.tutimg1} src={tutimg1} width={100} height={100} />
+          <Image className={styles.tutimg1} src="/tutimg1" width={200} height={200}/>
         <Image className={styles.tutimg2} src={tutimg2} width={100} height={100} />
         <Image className={styles.tutimg3} src={tutimg3} width={100} height={100} /> */}
         </section>
