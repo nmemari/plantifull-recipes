@@ -3,9 +3,9 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { questions } from '@/data/questions.js'
 
-export default function QuestionBoxThree() {
+export default function QuestionBoxThree({timeData}) {
     const [answer, setAnswer] = useState('')
-    const [isActive, setIsActive] = useState(false);
+    const [isActive, setIsActive] = useState(true);
     const [data, setData] = useState(questions);
     
     const handleAnswer = (event) => {
@@ -25,7 +25,9 @@ export default function QuestionBoxThree() {
     }
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} style={{
+            display: isActive ? 'flex' : 'none'
+        }}>
         <div className={styles.progressBar}>
                 <div className={styles.progressDone}></div>
                 <div className={styles.progressDone}></div>
@@ -66,7 +68,10 @@ export default function QuestionBoxThree() {
                         </label>
                     </div>
                 </div>
-                <button className={styles.btn} hidden={!answer} onClick={() => console.log(answer)}>Confirm</button>
+                <button className={styles.btn} hidden={!answer} onClick={() => {
+                    timeData(answer);
+                    setIsActive(false);
+                }}>Next</button>
             </div>
         </div>
     )
