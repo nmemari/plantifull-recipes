@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { questions } from '@/data/questions.js'
 
-export default function QuestionBoxOne() {
+export default function QuestionBoxOne({typeData}) {
     const [answer, setAnswer] = useState('')
     const [isActive, setIsActive] = useState(true);
     const [data, setData] = useState(questions);
@@ -110,7 +110,10 @@ export default function QuestionBoxOne() {
                         </label>
                     </div>
                 </div>
-                <button className={styles.btn} hidden={!answer} onClick={() => setIsActive(false)}>Confirm</button>
+                <button className={styles.btn} hidden={!answer} onClick={() => {
+                    typeData(answer);
+                    setIsActive(false);
+                }}>Next</button>
             </div>
         </div>
     )

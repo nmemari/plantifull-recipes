@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { questions } from '@/data/questions.js'
 
 
-export default function QuestionBoxTwo() {
+export default function QuestionBoxTwo({cuisineData}) {
     const [answer, setAnswer] = useState('')
     const [isActive, setIsActive] = useState(true);
     const [data, setData] = useState(questions);
@@ -120,7 +120,10 @@ export default function QuestionBoxTwo() {
                         </label>
                     </div>
                 </div>
-                <button className={styles.btn} hidden={!answer} onClick={() => setIsActive(false)}>Confirm</button>
+                <button className={styles.btn} hidden={!answer} onClick={() => {
+                    cuisineData(answer);
+                    setIsActive(false);
+                }}>Next</button>
             </div>
         </div>
     )

@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    margin-top: 0;
+    font-size: 28;
+    font-family: 'Grandstander', cursive;
+    color: var(--kobicha);
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 23;
+    font-family: 'Grandstander', cursive;
+    color: var(--kobicha);
+    width: 80%;
+    text-align: center;
+}
+
+.choiceCont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--fern-green);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.choiceCont p {
+    font-size: 25;
+    font-family: 'Anybody', cursive;
+    color: white;
+}
+
+.choiceCont b {
+    color: var(--almond);
+}
+
+
+.recipeName {
+    background-color: var(--fern-green);
+    padding: 30px;
+    width: 70%;
+    border-radius: 15px;
+    font-size: 25;
+    font-family: 'Anybody', cursive;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
