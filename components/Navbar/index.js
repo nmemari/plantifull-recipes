@@ -1,4 +1,4 @@
-import styles from './Navbar.module.css'
+import styles from './NavbarFull.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import Sprout from '@/public/logos/Logo_light-green.svg'
