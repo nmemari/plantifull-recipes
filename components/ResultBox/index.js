@@ -1,4 +1,4 @@
-import styles from './ResultBox.module.css'
+import styles from './ResultsBox.module.css'
 
 export default function ResultBox({
     name = '',
