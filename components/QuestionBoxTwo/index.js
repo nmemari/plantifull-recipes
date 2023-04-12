@@ -42,13 +42,12 @@ export default function QuestionBoxTwo({cuisineData}) {
         <div className={styles.container} style={{
             display: isActive ? 'flex' : 'none'
         }}>
-            <div className={styles.progressBar}>
-                <div className={styles.progressDone}></div>
-                <div className={styles.progressDone}></div>
-                <div className={styles.progress}></div>
-            </div>
-
             <div className={styles.quizContainer}>
+                <div className={styles.progressBar}>
+                    <div className={styles.progressDone}></div>
+                    <div className={styles.progressDone}></div>
+                    <div className={styles.progress}></div>
+                </div>
                 <h1 className={styles.question}>{data[1].question}</h1>
                 <div className={styles.answerCont}>
                     <div className={styles.answerBox}  style={{

@@ -66,7 +66,9 @@ export default function Quiz() {
           <QuestionBoxOne typeData={typetoResult}/>
         </div>
 
-        <div className={styles.confirmCont}>
+        <div className={styles.confirmCont} style={{
+            display: isActive ? 'flex' : 'none'
+          }}>
           {
             information && information.map((info, index) => {
               if (info.type.toLowerCase() === type && info.cuisine.toLowerCase() === cuisine && info.mealType.toLowerCase() === time) {
@@ -82,9 +84,7 @@ export default function Quiz() {
               }
             })
           }
-          <button className={styles.resultsBtn} onClick={() => sendData()} style={{
-            display: isActive ? 'block' : 'none'
-          }}>Let's Take a Look!</button>
+          <button className={styles.resultsBtn} onClick={() => sendData()}>Let's Take a Look!</button>
         </div>
         
       </main>
