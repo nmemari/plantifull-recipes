@@ -11,6 +11,8 @@
 .questionCont {
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
+    padding-top: 60px;
     height: 100%;
     position: absolute;
     background-color: var(--almond);

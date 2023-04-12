@@ -1,0 +1,45 @@
+.main {
+    background-color: var(--almond);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.resultCont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: var(--light-green);
+    border-radius: 15px;
+    border: solid 10px var(--hunter-green);
+    width: 380px;
+}
+
+.btnCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 20px;
+    background-color: var(--fern-green);
+    font-size: 23px;
+    width: 300px;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.btn:hover {
+    background-color: var(--hunter-green);
+    cursor: pointer;
+}
