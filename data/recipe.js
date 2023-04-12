@@ -817,7 +817,7 @@ export const recipe = [
         },
         {
             type: "Ovo Vegetarian",
-            cuisine: "Eash Asian",
+            cuisine: "East Asian",
             mealType: "Dinner/Lunch",
             name: "Tofu and Vegetable Stir-Fry",
             ingredients: [
