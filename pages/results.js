@@ -1,9 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Results.module.css'
+import { useState } from 'react'
 import { useRouter } from 'next/router'
+import Navbar from '@/components/Navbar';
+import ResultBox from '@/components/ResultBox';
+import { recipe } from '@/data/recipe.js'
+import Link from 'next/link'
 
 export default function Result() {
+  const [data, setData] = useState (recipe);
+
   const router = useRouter();
 
   const {
@@ -25,7 +32,27 @@ export default function Result() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div>{answers.type}, {answers.cuisine}, {answers.time}</div>
+        <Navbar />
+        <div className={styles.resultCont}>
+          {
+            data && data.map((info, index) => {
+              if (info.type.toLowerCase() === answers.type && info.cuisine.toLowerCase() === answers.cuisine && info.mealType.toLowerCase() === answers.time) {
+                return (
+                  <ResultBox 
+                    key={index}
+                    name={info.name}
+                    ingredients={info.ingredients}
+                    steps={info.instructions}
+                  />
+                )
+              }
+            })
+          }
+          <div className={styles.btnCont}>
+            <Link className={styles.btn} href='quiz'>Retake Quiz</Link>
+            <Link className={styles.btn} href='landing'>Back to Home</Link>
+          </div>
+        </div>
       </main>
     </>
   )
