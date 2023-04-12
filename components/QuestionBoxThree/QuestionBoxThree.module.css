@@ -5,6 +5,8 @@
 .container {
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 100px;
 }
 
 .progressBar {
@@ -12,7 +14,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 20px;
-    margin-top: 100px;
+    margin-bottom: 40px;
     width: 375px;
 }
 
@@ -33,7 +35,7 @@
 .quizContainer {
     display: flex;
     flex-direction: column; 
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     padding: 10px;
@@ -41,7 +43,7 @@
     border-radius: 15px;
     background-color: var(--light-green);
     width: 375px;
-    height: 700px;
+    height: 750px;
     font-family: 'Grandstander', cursive;
 }
 

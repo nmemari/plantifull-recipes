@@ -12,9 +12,10 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding-top: 60px;
+    padding-bottom: 0;
     height: 100%;
     position: absolute;
+    bottom: 0;
     background-color: var(--almond);
     width: 100%;    
 }
