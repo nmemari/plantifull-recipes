@@ -1,0 +1,49 @@
+.container {
+    background-color: var(--fern-green);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 73%;
+    margin-bottom: 70px;
+}
+
+.beginBox{
+    background-color: var(--hunter-green);
+    border-radius: 10px; 
+}
+
+.beginBox h6 {
+    color: white; 
+    font-family: 'Grandstander', cursive;
+    font-size: 22px; 
+    text-align:center;
+    padding: 1%;
+}
+
+.beginBox p{
+    color: white;
+    font-family: 'Anybody', cursive;
+    font-size: 20px; 
+    text-align: center; 
+    padding-top: -5%;
+}
+
+.btn {
+    background-color: var(--kobicha);
+    padding: 20px;
+    font-family: 'Grandstander', cursive;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    transition: 200ms;
+}
+
+.btn:hover {
+    background-color: var(--earth-yellow);
+    cursor: pointer;
+}

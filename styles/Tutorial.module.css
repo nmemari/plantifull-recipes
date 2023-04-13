@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--laurel-green);
+}
+
+.tutimgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tuteimg1{
+    margin-top: 30px;
+}
+
+.tuteimg3{
+    margin-bottom: 50px;
+}

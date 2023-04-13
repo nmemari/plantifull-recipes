@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--laurel-green);
+}
+
+.logoSection {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sprout{
+    margin-top: 122px;
+}

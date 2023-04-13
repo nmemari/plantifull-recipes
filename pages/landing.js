@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Landing.module.css'
+import BeginBox from '@/components/BeginBox'
+import  Sprout  from '@/public/logos/Logo_no-bkg.svg'
 
 export default function LandingPage() {
   return (
@@ -12,7 +14,11 @@ export default function LandingPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-         
+        <header></header>
+        <section className={styles.logoSection}>
+          <Image className={styles.sprout} src={Sprout} width={250} height={300} />
+        </section>
+        <BeginBox/>
       </main>
     </>
   )

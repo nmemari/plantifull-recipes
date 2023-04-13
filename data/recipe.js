@@ -3,7 +3,7 @@ export const recipe = [
             type: "Vegan",
             cuisine: "Western",
             mealType: "Breakfast",
-            name: "Vegan Banna Bread Pancakes with Chocolate Chunks",
+            name: "Vegan Banana Bread Pancakes with Chocolate Chunks",
             ingredients: [
                 "1 very ripe banana and a few slices for garnish",
                 "3/4 cup unsweetened plant-based milk e.g. rice milk",
