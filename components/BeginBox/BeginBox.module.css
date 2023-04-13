@@ -6,21 +6,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 73%;
-    margin-bottom: 70px;
+    width: 350px;
+    margin-bottom: 50px;
 }
 
 .beginBox{
     background-color: var(--hunter-green);
     border-radius: 10px; 
+    padding: 20px;
 }
 
-.beginBox h6 {
+.beginBox h1 {
     color: white; 
     font-family: 'Grandstander', cursive;
     font-size: 22px; 
     text-align:center;
-    padding: 1%;
 }
 
 .beginBox p{
@@ -28,7 +28,6 @@
     font-family: 'Anybody', cursive;
     font-size: 20px; 
     text-align: center; 
-    padding-top: -5%;
 }
 
 .btn {
@@ -38,8 +37,10 @@
     font-size: 23px;
     color: white;
     text-decoration: none;
+    text-align: center;
     border-radius: 6px;
     margin-top: 20px;
+    width: 200px;
     transition: 200ms;
 }
 

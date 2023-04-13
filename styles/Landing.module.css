@@ -1,18 +1,18 @@
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: var(--laurel-green);
 }
 
 .logoSection {
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .sprout{
-    margin-top: 122px;
+    margin-top: 0;
 }
