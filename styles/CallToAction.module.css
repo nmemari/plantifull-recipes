@@ -1,0 +1,48 @@
+.main {
+    background-color: var(--almond);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--laurel-green);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 1600px;
+    border-radius: 15px;
+}
+
+.callToAction {
+    text-align: center;
+    color: var(--hunter-green);
+    font-family: 'Grandstander', cursive;
+    font-size: 55px;
+    margin-top: 40px;
+}
+
+.happeningRightNow {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionheader {
+    font-family: 'Grandstander', cursive;
+    color: var(--hunter-green);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bodyCopy {
+    font-family: 'Anybody', cursive;
+    color: var(--kobicha);
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 20px;
+    line-height: 1.5;
+}
