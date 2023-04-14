@@ -1,5 +1,5 @@
-export const recipe = {
-    recipes: [
+export const recipe = 
+    [
         {
             type: "Vegan",
             cuisine: "Western",
@@ -968,4 +968,3 @@ export const recipe = {
             ]
         }
     ]
-}

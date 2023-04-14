@@ -1,14 +1,24 @@
 import styles from './BrowseRecipe.module.css'
+import Router from 'next/router';
+import { useState } from 'react';
 
+export default function BrowseRecipe( {
+    title='',
+    tag='',
+    tag2='',
+    tag3='',
+    func={}
+}) {
+    
 
-export default function BrowseRecipe() {
     return (
-        <div className={styles.container}>
-            <h3>Browse Recipe</h3> 
-            <div className={styles.browsebox1}>
-                
-            </div>
-           
+        <div>
+        <div>
+            <div>{title}</div>
+            <div>{}</div>
         </div>
+
+    </div>
     )
-} 
+    }
+
