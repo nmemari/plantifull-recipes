@@ -4,6 +4,9 @@ import styles from '@/styles/About.module.css'
 import missionSprout from '@/public/logos/ourMission.svg'
 import solutionSprout from '@/public/logos/ourSolution.svg'
 import Navbar from '@/components/Navbar'
+import Navid from '@/components/Navid'
+import Thamasha from '@/components/Thamasha'
+import Lauryn from '@/components/Lauryn'
 
 export default function About() {
   return (
@@ -44,6 +47,21 @@ export default function About() {
           <p className={styles.ourSolution2}>
             The second other reason why people are reluctant to switch is due to them missing meat. This is not a problem! We know the transition from meat to a completely plant based diet isn’t an easy one and that not everyone has the same dietary needs. So we’ve included a wide range of recipes that caters to sub-groups of Vegetarianism including, Pescatarians, Ovo-Vegertarians and Lacto-Ovo-Vegetarians. We want to be inclusive to all sub categories of Vegetarianism and don’t want to shame anyone for their dietary needs.
           </p>
+
+          <h1 className={styles.ourTeam}>Our Team</h1>
+
+          <div className={styles.teamCards}>
+            <Navid/>
+          </div>
+
+          <div className={styles.teamCards}>
+            <Thamasha/>
+          </div>
+         
+          <div className={styles.teamCards}>
+            <Lauryn/>
+          </div>
+
         </div>
 
       </main>

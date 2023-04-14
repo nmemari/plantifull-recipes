@@ -11,8 +11,8 @@
     background-color: var(--laurel-green);
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px;
     width: 350px;
     border-radius: 15px;
 }
@@ -36,7 +36,7 @@
 .ourMission {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 30px;
+    padding-top: 10px;
     font-family: 'Anybody', cursive;
     color: var(--kobicha);
     font-size: 20px;
@@ -85,4 +85,17 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+}
+
+.ourTeam {
+    font-family: 'Grandstander', cursive;
+    text-align: center;
+    color: var(--kobicha);
+    padding-top: 40px;
+}
+
+.teamCards {
+    align-content: center;
+    padding-bottom: 30px;
+    margin-left: 20px;
 }
