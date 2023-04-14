@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--fern-green);
+    width: 300px;
+    border-radius: 15px;
+}
+
+.navidCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nameTag {
+    font-family: 'Grandstander', cursive;
+    font-size: 25px;
+    color: var(--almond);
+}
+
+.teamRole {
+    font-family: 'Anybody', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -10px;
+    color: white;
+}
+
+.personalInfo {
+    font-family: 'Anybody', cursive;
+    font-size: 17px;
+    margin-top: -10px;
+    color: white;
+}
