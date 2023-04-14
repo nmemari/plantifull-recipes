@@ -51,7 +51,7 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className={styles.sideBarItem}>
-                            <Link className={styles.link} href={'tutorial'}>
+                            <Link className={styles.link} href={'callToAction'}>
                                 <Image className={styles.barIcon} src={CallTA} width={35} height={40}/>
                                 Call to Action
                             </Link>
