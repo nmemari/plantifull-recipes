@@ -1,0 +1,51 @@
+.main {
+    background-color: var(--almond);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.container {
+    background-color: var(--laurel-green);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 350px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.callToAction {
+    text-align: center;
+    color: var(--hunter-green);
+    font-family: 'Grandstander', cursive;
+    font-size: 55px;
+    padding-top: 10px;
+}
+
+.happeningRightNow {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionheader {
+    font-family: 'Grandstander', cursive;
+    color: var(--hunter-green);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bodyCopy {
+    font-family: 'Anybody', cursive;
+    color: var(--kobicha);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}

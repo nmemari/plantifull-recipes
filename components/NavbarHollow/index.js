@@ -6,6 +6,7 @@ import Info from '@/public/Icons/Info.png'
 import Tutorial from '@/public/Icons/Tutorial.png'
 import CallTA from '@/public/Icons/CTA.png'
 import About from '@/public/Icons/About.png'
+import Search from '@/public/Icons/Search.png'
 import { useState, useEffect } from 'react'
 
 export default function NavbarHollow() {
@@ -40,13 +41,19 @@ export default function NavbarHollow() {
                             </Link>
                         </li>
                         <li className={styles.sideBarItem}>
+                            <Link className={styles.link} href={'browse'}>
+                                <Image className={styles.barIcon} src={Search} width={35} height={40}/>
+                                Browse
+                            </Link>
+                        </li>
+                        <li className={styles.sideBarItem}>
                             <Link className={styles.link} href={'tutorial'}>
                                 <Image className={styles.barIcon} src={Tutorial} width={35} height={40}/>
                                 Tutorial
                             </Link>
                         </li>
                         <li className={styles.sideBarItem}>
-                            <Link className={styles.link} href={'tutorial'}>
+                            <Link className={styles.link} href={'callToAction'}>
                                 <Image className={styles.barIcon} src={CallTA} width={35} height={40}/>
                                 Call to Action
                             </Link>

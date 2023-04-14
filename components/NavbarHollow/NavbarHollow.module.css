@@ -71,7 +71,7 @@
 .sideBarItem {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 25px;
     transition: 200ms;
     padding: 25px;
     border-radius: 10px;
