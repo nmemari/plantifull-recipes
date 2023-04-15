@@ -6,6 +6,7 @@ import { recipe } from "@/data/recipe.js"
 import Link from "next/link"
 import Head from "next/head"
 import styles from "@/styles/Browse.module.css"
+import Navbar from "@/components/Navbar"
 
 export default function Browse() {
     const [type, setType] = useState("");
@@ -33,6 +34,7 @@ export default function Browse() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className={styles.main}>
+          <Navbar/>
           {
             information && information.map((info, index) => {
                 return(
@@ -40,8 +42,16 @@ export default function Browse() {
                     <BrowseRecipe
                     title={info.name}
                     />
-                    <button onClick={() => sendData(info.type.toLowerCase(), info.cuisine.toLowerCase(), info.mealType.toLowerCase())}>Visit</button>                    
+                    <button onClick={() => sendData(info.type.toLowerCase(), info.cuisine.toLowerCase(), info.mealType.toLowerCase())}>
+                      <Image 
+                      className={styles.arrow}
+                      src={"/browsepage/arrowhite.svg"}
+                      width={45}
+                      height={45}
+                      />                     
+                    </button>                   
                     </div>
+                    
                 )
             })
           }          
