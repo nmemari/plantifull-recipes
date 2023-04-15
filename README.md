@@ -22,3 +22,6 @@ An app that allows the user to take a short questionnaire based on the user's fo
 - A quiz to allow user to learn about their prefered recipes and diet.
 - A "Recommended" recipe section
 - "Try This" recipe section
+
+# Installation of Dependence 
+npm install framer-motion

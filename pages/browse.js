@@ -42,8 +42,16 @@ export default function Browse() {
                     <BrowseRecipe
                     title={info.name}
                     />
-                    <button onClick={() => sendData(info.type.toLowerCase(), info.cuisine.toLowerCase(), info.mealType.toLowerCase())}>Visit</button>                    
+                    <button onClick={() => sendData(info.type.toLowerCase(), info.cuisine.toLowerCase(), info.mealType.toLowerCase())}>
+                      <Image 
+                      className={styles.arrow}
+                      src={"/browsepage/arrowhite.svg"}
+                      width={45}
+                      height={45}
+                      />                     
+                    </button>                   
                     </div>
+                    
                 )
             })
           }          

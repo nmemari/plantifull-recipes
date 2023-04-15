@@ -4,12 +4,26 @@
     flex-direction: column; 
     justify-content: flex-start;
     align-items: center;
+    font-family: 'Anybody', cursive;
+    font-size: 20px;
+
 }
 
 .button {
     border-style: solid;
     border-radius: 10px;
-    padding: 2%;
+    padding-top: 3%; 
+    padding-left:4%;
+    padding-right: 2%;
     margin: 4%;
     width: 300px;
+    background-color: var(--fern-green);
+}
+
+.button button {
+    background: none;
+    border: none;
+    float: right;
+    margin-bottom: 10px;
+    margin-top: -15px;
 }
