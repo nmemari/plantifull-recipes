@@ -41,6 +41,9 @@ export default function Browse() {
                     <div className={styles.button} key={index}>
                     <BrowseRecipe
                     title={info.name}
+                    tag1={info.type}
+                    tag2={info.cuisine}
+                    tag3={info.mealType}
                     />
                     <button onClick={() => sendData(info.type.toLowerCase(), info.cuisine.toLowerCase(), info.mealType.toLowerCase())}>
                       <Image 
