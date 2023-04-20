@@ -99,3 +99,14 @@
     padding-bottom: 30px;
     margin-left: 20px;
 }
+
+.mission {
+    display: flex;
+    flex-direction: column;
+}
+
+.foodImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
