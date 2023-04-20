@@ -98,3 +98,23 @@
     align-items: center;
 
 }
+
+.veganDish1 {
+    border-radius: 10px;
+}
+
+.veganDish2 {
+    border-radius: 10px;
+}
+
+.pescatarianImage {
+    border-radius: 10px;
+}
+
+.ovoImage {
+    border-radius: 10px;
+}
+
+.lactoImage {
+    border-radius: 10px;
+}

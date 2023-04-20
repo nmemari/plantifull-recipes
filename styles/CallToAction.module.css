@@ -11,8 +11,8 @@
     background-color: var(--laurel-green);
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 60px;
     width: 350px;
     border-radius: 15px;
     align-items: center;
@@ -45,7 +45,7 @@
     color: var(--kobicha);
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
 }

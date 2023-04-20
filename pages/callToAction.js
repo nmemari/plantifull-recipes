@@ -31,7 +31,11 @@ export default function CallToAction() {
               <h2 className={styles.sectionheader}>What is Global Warming?</h2>
 
               <p className={styles.bodyCopy}>
-                But what is exactly global warming and what causes it? Global Warming is the naturally occurring phenomena in which the earth experiences temperature fluctuations over the course of millions of years. These temperature fluctuations are caused by the greenhouse gas emissions that are released into earth’s atmosphere. However, due to industrial factories and other related practices the rate at which the earth is experiencing global warming is rapidly increasing. As a result, we are now seeing the effects of global warming both on us and our environment. 
+                But what is global warming and what causes it? Global Warming is a naturally occurring phenomena in which the earth experiences temperature fluctuations over millions of years. These temperature fluctuations are caused by the greenhouse gas emissions that are released into earth’s atmosphere. 
+              </p>
+
+              <p className={styles.bodyCopy}>
+                However, industrial factories and other related practices have been rapidly increasing the rate of CO2 emissions, and as a result, we are seeing the effects of global warming on our environment. 
               </p>
             </section>
 
@@ -39,7 +43,12 @@ export default function CallToAction() {
               <h2 className={styles.sectionheader}>How Does Eating Meat Contribute To Global Warming?</h2>
 
               <p className={styles.bodyCopy}>
-                The meat industry is a prime factor for the increase in global warming due to the sheer amount of resources needed for the agricultural industry. Every year countless forests and landscapes are bulldozed and developed to create more room for ever expanding factories and farms. However, it’s not only the factories that contribute to CO2 emissions but the animals themselves, and with the increasing demand for more meat this creates a larger impact on both the environment and animals
+                The meat industry is one of the prime factors for the increase in global warming due to the amount of resources needed for the agricultural industry.
+              </p>
+
+              <p className={styles.bodyCopy}>
+                Every year countless forests and landscapes are bulldozed to develop more factories and farms. However, factories aren’t the only contributors to CO2 emissions but the animals themselves, and with the increasing demand for more meat this creates a larger impact on both the environment and animals.
+
               </p>
 
               <p className={styles.bodyCopy}>
