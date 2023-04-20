@@ -25,7 +25,7 @@
     padding-top: 10px;
 }
 
-.missionSubhead {
+.subhead {
     text-align: center;
     color: var(--kobicha);
     font-family: 'Grandstander', cursive;
@@ -33,13 +33,13 @@
     padding-top: 40px;
 }
 
-.ourMission {
+.bodyCopy {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     font-family: 'Anybody', cursive;
     color: var(--kobicha);
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -49,34 +49,6 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-}
-
-.solutionSubhead {
-    text-align: center;
-    color: var(--kobicha);
-    font-family: 'Grandstander', cursive;
-    font-size: 32px;
-    margin-top: 120px;
-}
-
-.ourSolution1 {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    font-family: 'Anybody', cursive;
-    color: var(--kobicha);
-    font-size: 20px;
-    line-height: 1.5;
-}
-
-.ourSolution2 {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    font-family: 'Anybody', cursive;
-    color: var(--kobicha);
-    font-size: 20px;
-    line-height: 1.5;
 }
 
 .solutionSprout {
@@ -109,4 +81,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.sectionhead {
+    font-family: 'Grandstander', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: var(--kobicha);
+    padding-top: 20px;
+}
+
+.pescatarianInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
