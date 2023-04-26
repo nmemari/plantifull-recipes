@@ -9,6 +9,14 @@
     margin: 15px;
     border-radius: 20px;
     margin-top: 30px;
+    animation: floating 2s infinite linear;
+    margin-top: 0; 
+}
+
+@keyframes floating {
+    30% {
+        transform: translateY(2%);
+    }
 }
 
 .btnContainer {
