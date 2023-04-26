@@ -13,6 +13,13 @@
     align-items: center;
 }
 
-.sprout{
-    margin-top: 0;
+.sprout {
+    animation: floating 2s infinite linear;
+    margin-top: 0; 
+}
+
+@keyframes floating {
+    30% {
+        transform: translateY(15px);
+    }
 }

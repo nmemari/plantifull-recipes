@@ -12,3 +12,13 @@
     justify-content: center;
     align-items: center;
 }
+
+.sprout {
+    animation: floating 2s infinite linear; 
+}
+
+@keyframes floating {
+    30% {
+        transform: translateY(15px);
+    }
+}

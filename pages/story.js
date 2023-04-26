@@ -16,7 +16,9 @@ export default function Story() {
       </Head>
       <main className={styles.main}>
         <NavbarHollow />
-        <StoryCarousel />
+        <div className={styles.carousel}>
+          <StoryCarousel />
+        </div>
       </main>
     </>
   )

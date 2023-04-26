@@ -9,6 +9,12 @@
 .logoCont {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.logoCont:hover {
+    transform: scale(1.02);
 }
 
 .logoCont h1 {
