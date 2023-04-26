@@ -2,6 +2,7 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    z-index: 2;
 }
 
 .sideBarBtn {
@@ -36,6 +37,7 @@
     background-color: var(--fern-green);
     display: flex;
     flex-direction: column;
+    z-index: 2;
 }
 
 .sideBarClose {

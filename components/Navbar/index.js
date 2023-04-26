@@ -16,10 +16,10 @@ export default function Navbar() {
     return (
         <>
             <div className={styles.navbar}>
-                <div className={styles.logoCont}>
+                <Link href='landing' className={styles.logoCont}>
                     <Image src={Sprout} width={90} height={90}/>
                     <h1>Plantifull Recipe</h1>
-                </div>
+                </Link>
                 <button className={styles.sideBarBtn} onClick={() => setIsActive('block')}>
                     <div className={styles.menuComp}></div>
                     <div className={styles.menuComp}></div>
