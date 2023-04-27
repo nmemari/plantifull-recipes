@@ -6,28 +6,4 @@
     align-items: center;
     font-family: 'Anybody', cursive;
     font-size: 20px;
-
-}
-
-.button {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 4%;
-    width: 300px;
-    background-color: var(--fern-green);
-}
-
-.button button {
-    background: none;
-    border: none;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    transition: 200ms;
-}
-
-.button button:hover {
-    cursor: pointer;
-    transform: scale(1.2);
 }

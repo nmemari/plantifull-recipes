@@ -36,18 +36,10 @@ export default function Browse() {
         </Head>
         <main className={styles.main}>
           <Navbar/>
-          <Accordion
-          mealType="vegan"
-          />
-          <Accordion
-          mealType="pescatarian"
-          />
-          <Accordion
-          mealType="ovo vegetarian"
-          />      
-          <Accordion
-          mealType="ovo-lacto vegetarian"
-          />
+          <Accordion mealType="Vegan" />
+          <Accordion mealType="Pescatarian" />
+          <Accordion mealType="Ovo Vegetarian" />      
+          <Accordion mealType="Ovo-lacto Vegetarian" />
         </main>
       </>
     )
