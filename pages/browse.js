@@ -7,6 +7,7 @@ import Link from "next/link"
 import Head from "next/head"
 import styles from "@/styles/Browse.module.css"
 import Navbar from "@/components/Navbar"
+import Accordion from "@/components/Accordion"
 
 export default function Browse() {
     const [type, setType] = useState("");
@@ -35,29 +36,18 @@ export default function Browse() {
         </Head>
         <main className={styles.main}>
           <Navbar/>
-          {
-            information && information.map((info, index) => {
-                return(
-                    <div className={styles.button} key={index}>
-                    <BrowseRecipe
-                    title={info.name}
-                    tag1={info.type}
-                    tag2={info.cuisine}
-                    tag3={info.mealType}
-                    />
-                    <button onClick={() => sendData(info.type.toLowerCase(), info.cuisine.toLowerCase(), info.mealType.toLowerCase())}>
-                      <Image 
-                      className={styles.arrow}
-                      src={"/browsepage/arrowhite.svg"}
-                      width={45}
-                      height={45}
-                      />                     
-                    </button>                   
-                    </div>
-                    
-                )
-            })
-          }          
+          <Accordion
+          mealType="vegan"
+          />
+          <Accordion
+          mealType="pescatarian"
+          />
+          <Accordion
+          mealType="ovo vegetarian"
+          />      
+          <Accordion
+          mealType="ovo-lacto vegetarian"
+          />
         </main>
       </>
     )
