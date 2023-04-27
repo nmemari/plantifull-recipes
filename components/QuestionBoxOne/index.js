@@ -73,7 +73,7 @@ export default function QuestionBoxOne({typeData}) {
                                 <div className={styles.helpBtn} onClick={() => {
                                     setPopUp(true)
                                     setImage(VeganDish)
-                                    setDesc('Vegan')
+                                    setDesc('Veganism is a popular dietary practice that refrains from consuming as much animal products as possible. This includes by-products such as eggs, milk and wool. Besides the ethical positives for veganism, the diet is also beneficial to reducing risk of Alzheimer’s disease, heart disease and obesity.')
                                 }}>?</div>
                             </h3>
                         </label>
