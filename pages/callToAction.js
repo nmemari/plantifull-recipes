@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/CallToAction.module.css'
 import Navbar from '@/components/Navbar'
+import { PieChart } from '@/components/PieChart'
+import organicGroceries from '@/public/pictures/Organic-ingredients.jpeg'
+import windowTomatos from '@/public/pictures/window-tomatos.jpeg'
 
 export default function CallToAction() {
   return (
@@ -31,7 +34,11 @@ export default function CallToAction() {
               <h2 className={styles.sectionheader}>What is Global Warming?</h2>
 
               <p className={styles.bodyCopy}>
-                But what is exactly global warming and what causes it? Global Warming is the naturally occurring phenomena in which the earth experiences temperature fluctuations over the course of millions of years. These temperature fluctuations are caused by the greenhouse gas emissions that are released into earth’s atmosphere. However, due to industrial factories and other related practices the rate at which the earth is experiencing global warming is rapidly increasing. As a result, we are now seeing the effects of global warming both on us and our environment. 
+                But what is global warming and what causes it? Global Warming is a naturally occurring phenomena in which the earth experiences temperature fluctuations over millions of years. These temperature fluctuations are caused by the greenhouse gas emissions that are released into earth’s atmosphere. 
+              </p>
+
+              <p className={styles.bodyCopy}>
+                However, industrial factories and other related practices have been rapidly increasing the rate of CO2 emissions, and as a result, we are seeing the effects of global warming on our environment. 
               </p>
             </section>
 
@@ -39,11 +46,17 @@ export default function CallToAction() {
               <h2 className={styles.sectionheader}>How Does Eating Meat Contribute To Global Warming?</h2>
 
               <p className={styles.bodyCopy}>
-                The meat industry is a prime factor for the increase in global warming due to the sheer amount of resources needed for the agricultural industry. Every year countless forests and landscapes are bulldozed and developed to create more room for ever expanding factories and farms. However, it’s not only the factories that contribute to CO2 emissions but the animals themselves, and with the increasing demand for more meat this creates a larger impact on both the environment and animals
+                The meat industry is one of the prime factors for the increase in global warming due to the amount of resources needed for the agricultural industry.
               </p>
 
               <p className={styles.bodyCopy}>
-                According to WorldAnimalProtection.ca the consumption of animal products processed in factories and farms contributes to 45% of agricultural greenhouse gas emissions. Due to the rising demand of meat, companies have since increased the amount of livestock to meet consumer demands. Unfortunately, this comes at the cost of both the environment and the well-being and treatment of the animals. 
+                Every year countless forests and landscapes are bulldozed to develop more factories and farms. However, factories aren’t the only contributors to CO2 emissions but the animals themselves, and with the increasing demand for more meat this creates a larger impact on both the environment and animals.
+              </p>
+
+              <PieChart/>
+
+              <p className={styles.bodyCopy}>
+                According to EPA.gov the agricultural industry is repsonsible for 24% of greenhouse gas emissions. Due to the rising demand of meat, companies have increased the amount of livestock to meet consumer demands. Unfortunately, this comes at the cost of both the environment and the well-being and treatment of the animals.
               </p>
             </section>
 
@@ -51,12 +64,20 @@ export default function CallToAction() {
               <h2 className={styles.sectionheader}>What Can We Do About This</h2>
 
               <p className={styles.bodyCopy}>
-              The answer? Eat less meat. By lowering the demand of meat and meat by-products we can reduce the need for agricultural factories. This also includes animal farms, slaughterhouses, meat processing factories and animal food crop farms. 
+                The answer? Eat less meat. By lowering the demand of meat and meat by-products we can reduce the need for agricultural factories. This also includes animal farms, slaughterhouses, meat processing factories and animal food crop farms. 
               </p>
 
               <p className={styles.bodyCopy}>
-              Anothering thing that we can do to help stop global warming is to buy from local and organic grocery stores. Emissions are also created from transporting farm products to and from farms to factories to super markets. The less farther the sources, the fewer greenhouse gasses are created. Although unstandably organic isn’t cheap, an alternative solution is to try cutting down on grocery costs by growing simple plants yourself! Growing food doesn’t mean you need a lot of land. Try planting cherry tomatoes on your balcony or green onion from your window sill. There are many creative and small ways we can take part in helping our planet, and it all starts with going green.
+                Anothering thing that we can do to help stop global warming is to buy from local and organic grocery stores. Emissions are also created from transporting farm products to and from farms to factories to super markets. The less farther the sources, the fewer greenhouse gasses are created.
               </p>
+
+              <Image className={styles.organicGroceries} src={organicGroceries} width={350} height={200}/>
+
+              <p className={styles.bodyCopy}>
+                Although unstandably organic isn’t cheap, an alternative solution is to try cutting down on grocery costs by growing simple plants yourself! Growing food doesn’t mean you need a lot of land. Try planting cherry tomatoes on your balcony or green onion from your window sill. There are many creative and small ways we can take part in helping our planet, and it all starts with going green.
+              </p>
+
+              <Image className={styles.windowTomatos} src={windowTomatos} width={350} height={200}/>
             </section>
         </div>
       </main>
