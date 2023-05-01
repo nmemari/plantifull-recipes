@@ -1,21 +1,20 @@
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     background-color: var(--laurel-green);
 }
 
 .logoSection {
-    height: 400px;
+    height: 440px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .sprout {
-    animation: floating 2s infinite linear;
-    margin-top: 0; 
+    animation: floating 2s infinite linear; 
 }
 
 @keyframes floating {

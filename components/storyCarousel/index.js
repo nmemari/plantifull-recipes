@@ -40,7 +40,7 @@ export default function StoryCarousel() {
             <button className={styles.btn} onClick={() => setNumber(number + 1)} style={{
                 display: isFinish ? 'none' : 'block'
             }}>Next</button>
-            <Link className={styles.finish} href="landing" style={{
+            <Link className={styles.finish} href="home" style={{
                 display: isFinish ? 'block' : 'none'
             }}>Finish</Link>
         </div>
