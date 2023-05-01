@@ -2,9 +2,10 @@ import styles from './WelcomeBox.module.css'
 import Link from 'next/link'
 
 
-export default function WelcomeBox() {
-    var title = process.env.NEXT_PUBLIC_HEADER
-
+export default function WelcomeBox({
+    title=""
+}) {
+    
     return (
         <div className={styles.container}>
             <div className={styles.msgBox}>

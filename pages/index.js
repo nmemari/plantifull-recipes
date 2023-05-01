@@ -6,6 +6,8 @@ import Sprout from '@/public/logos/Logo_no-bkg.svg'
 import NavbarHollow from '@/components/NavbarHollow'
 
 export default function Landing() {
+  var welcome = process.env.NEXT_PUBLIC_HEADER
+
   return (
     <>
       <Head>
@@ -19,7 +21,7 @@ export default function Landing() {
         <section className={styles.logoSection}>
           <Image className={styles.sprout} src={Sprout} width={250} height={300}/>
         </section>
-        <WelcomeBox />
+        <WelcomeBox title={welcome}/>
       </main>
     </>
   )
