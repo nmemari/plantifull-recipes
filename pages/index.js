@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Landing.module.css'
 import WelcomeBox from '@/components/WelcomeBox'
 import Sprout from '@/public/logos/Logo_no-bkg.svg'
 import NavbarHollow from '@/components/NavbarHollow'
 
-export default function Home() {
+export default function Landing() {
   return (
     <>
       <Head>

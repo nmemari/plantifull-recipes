@@ -50,7 +50,8 @@ export default function Result() {
           }
           <div className={styles.btnCont}>
             <Link className={styles.btn} href='quiz'>Retake Quiz</Link>
-            <Link className={styles.btn} href='landing'>Back to Home</Link>
+            <Link className={styles.btn} href='catalogue'>Explore our Catalogue</Link>
+            <Link className={styles.btn} href='home'>Back to Home</Link>
           </div>
         </div>
       </main>
