@@ -16,7 +16,7 @@ export default function Navbar() {
     return (
         <>
             <div className={styles.navbar}>
-                <Link href='landing' className={styles.logoCont}>
+                <Link href='home' className={styles.logoCont}>
                     <Image src={Sprout} width={90} height={90}/>
                     <h1>Plantifull Recipe</h1>
                 </Link>
@@ -34,7 +34,7 @@ export default function Navbar() {
                     <button className={styles.sideBarClose} onClick={() => setIsActive('none')}>X</button>
                     <ul className={styles.sideBarMenu}>
                         <li className={styles.sideBarItem}>
-                            <Link className={styles.link} href={'landing'}>
+                            <Link className={styles.link} href={'home'}>
                                 <Image className={styles.barIcon} src={Home} width={40} height={35}/>
                                 Home
                             </Link>
@@ -46,9 +46,9 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className={styles.sideBarItem}>
-                            <Link className={styles.link} href={'browse'}>
+                            <Link className={styles.link} href={'catalogue'}>
                                 <Image className={styles.barIcon} src={Search} width={35} height={40}/>
-                                Browse
+                                Catalogue
                             </Link>
                         </li>
                         <li className={styles.sideBarItem}>

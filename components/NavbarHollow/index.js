@@ -29,7 +29,7 @@ export default function NavbarHollow() {
                     <button className={styles.sideBarClose} onClick={() => setIsActive('none')}>X</button>
                     <ul className={styles.sideBarMenu}>
                         <li className={styles.sideBarItem}>
-                            <Link className={styles.link} href={'landing'}>
+                            <Link className={styles.link} href={'home'}>
                                 <Image className={styles.barIcon} src={Home} width={40} height={35}/>
                                 Home
                             </Link>
@@ -41,9 +41,9 @@ export default function NavbarHollow() {
                             </Link>
                         </li>
                         <li className={styles.sideBarItem}>
-                            <Link className={styles.link} href={'browse'}>
+                            <Link className={styles.link} href={'catalogue'}>
                                 <Image className={styles.barIcon} src={Search} width={35} height={40}/>
-                                Browse
+                                Catalogue
                             </Link>
                         </li>
                         <li className={styles.sideBarItem}>
@@ -68,6 +68,5 @@ export default function NavbarHollow() {
                 </div>
             </div>
         </>
-        
     )
 }
