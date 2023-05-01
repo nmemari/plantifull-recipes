@@ -2,8 +2,8 @@
 
 ## App Developers
 
-- Lauryn Kung :
-- Thamasha Amara
+- Lauryn Kung
+- Thamasha Amarasekara
 - Navid Memari
 
 ## Main App Premise
