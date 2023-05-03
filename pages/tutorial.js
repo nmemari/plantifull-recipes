@@ -15,11 +15,19 @@ export default function Tutorial() {
       <main className={styles.main}>
         <Navbar />
         <section>
-          <div className={styles.tutimgs}>
-          <Image className={styles.tuteimg1} src="/tutorialpage/tuteimg1.png" width={310} height={631}/>
-          <Image className={styles.tuteimg2} src="/tutorialpage/tuteimg2.png" width={310} height={631}/>
-          <Image className={styles.tuteimg3} src="/tutorialpage/tuteimg3.png" width={310} height={631}/>            
-          </div>          
+          <h2 className={styles.h2}>Tutorial</h2>
+          <h3>1.Begin the Quiz</h3>
+          <p>Click / Press the “Let’s Get Started” button that will lead you to the quiz page and allow you to begin answering the Quiz</p>
+          <Image className={styles.tutimg} src="/tutorialpage/lgsbtn.png" width={285} height={85}/>
+          <h3>2. Select what best suits you</h3>
+          <p>Choose the best option that meets your needs and proceed to the next section.</p>
+          <Image className={styles.tutimg} src="/tutorialpage/qlist.png" width={300} height={300}/>
+          <h3>3.Confirm Your Results</h3>
+          <p>After answering the questions in the quiz, you will be led to a confirmation page where you will get an overview of your choices and either choose to confirm or retry the quiz if you change your mind</p>          
+          <Image className={styles.tutimg} src="/tutorialpage/choices.png" width={300} height={300}/>
+          <h2>4.Enjoy Your Recipe!</h2>
+          <p>Once you confirm your choices, you can view your catered recipe based on the choices you picked we will provide you a recipe best suited for your preferences.Click “Lets take a look” to view the details and steps of your recipe.</p>
+          <Image className={styles.tutimg} src="/tutorialpage/yad.png" width={310} height={400}/>
         </section>
       </main>
     </>
