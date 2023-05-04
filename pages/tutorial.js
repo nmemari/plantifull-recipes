@@ -30,6 +30,7 @@ export default function Tutorial() {
           <p className={styles.p}>Once you confirm your choices, you can view your catered recipe based on the choices you picked we will provide you a recipe best suited for your preferences.Click “Lets take a look” to view the details and steps of your recipe.</p>
           <Image className={styles.tutimg} src="/tutorialpage/yad.png" width={265} height={400}/>
           <Link className={styles.btn} href='quiz'>Take the Quiz!</Link>
+          <Link className={styles.btn} href='about'>Learn About Us</Link>
         </section>
       </main>
     </>
