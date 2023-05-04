@@ -7,7 +7,7 @@ import Info from '@/public/Icons/Info.png'
 import Tutorial from '@/public/Icons/Tutorial.png'
 import CallTA from '@/public/Icons/CTA.png'
 import About from '@/public/Icons/About.png'
-import Search from '@/public/Icons/Search.png'
+import Search from '@/public/Icons/Catalogue.png'
 import { useState, useEffect } from 'react'
 
 export default function Navbar() {
@@ -47,7 +47,7 @@ export default function Navbar() {
                         </li>
                         <li className={styles.sideBarItem}>
                             <Link className={styles.link} href={'catalogue'}>
-                                <Image className={styles.barIcon} src={Search} width={35} height={40}/>
+                                <Image className={styles.barIcon} src={Search} width={40} height={35}/>
                                 Catalogue
                             </Link>
                         </li>
