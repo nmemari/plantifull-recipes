@@ -1,9 +1,11 @@
 .accordion {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 300px;
+    height: 50px;
     background-color: var(--laurel-green);
-    padding: 40px;
+    padding: 30px;
     margin: 20px;
     border-radius: 15px;
     color: var(--kobicha);
@@ -12,8 +14,17 @@
     font-size: 30px;
 }
 
+.accordion:hover {
+    cursor: pointer;
+}
+
 .dropBtn {
-    margin-right: 40px;
+    margin-right: 15px;
+    transition: 200ms;
+}
+
+.dropBtn:hover {
+    transform: scale(1.2);
 }
 
 .dropDown {

@@ -4,6 +4,8 @@ import Router from "next/router";
 import BrowseRecipe from "../BrowseRecipe";
 import Image from "next/image";
 import styles from './Accordion.module.css';
+import Up from '@/public/Icons/upArrow.png';
+import Down from '@/public/Icons/downArrow.png';
 
 export default function Accordion({
     mealType=''
@@ -26,7 +28,7 @@ export default function Accordion({
         <>
             <div className={styles.accordion} onClick={() => setIsActive(!isActive)}>
                 {mealType}
-                <div className={styles.dropBtn}>{isActive ? "^" : "↓"}</div>
+                <div className={styles.dropBtn}>{isActive ? <Image className={styles.barIcon} src={Up} width={30} height={20}/> : <Image className={styles.barIcon} src={Down} width={30} height={20}/>}</div>
             </div>
 
                 <div className={styles.dropDown} style={{
