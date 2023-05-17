@@ -12,6 +12,7 @@ import VeganDish2 from '@/public/pictures/vegan-salad.jpeg'
 import Pescatarian from '@/public/pictures/pescatarian-option.jpeg'
 import OvoVegetarian from '@/public/pictures/ovo-vegetarian-option.jpeg'
 import LactoOvoVegetarian from '@/public/pictures/lacto-ovo-vegetarian-option.jpeg'
+import Link from 'next/link'
 
 export default function About() {
   return (
@@ -124,10 +125,8 @@ export default function About() {
               <Lauryn/>
             </div>
           </section>
-
-
         </div>
-
+        <Link className={styles.btn} href='home'>Back to Home</Link>
       </main>
     </>
   )

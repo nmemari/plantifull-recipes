@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar'
 import { PieChart } from '@/components/PieChart'
 import organicGroceries from '@/public/pictures/Organic-ingredients.jpeg'
 import windowTomatos from '@/public/pictures/window-tomatos.jpeg'
+import Link from 'next/link'
 
 export default function CallToAction() {
   return (
@@ -80,6 +81,7 @@ export default function CallToAction() {
               <Image className={styles.windowTomatos} src={windowTomatos} width={350} height={200}/>
             </section>
         </div>
+        <Link className={styles.btn} href='home'>Back to Home</Link>
       </main>
     </>
   )
